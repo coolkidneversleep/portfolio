@@ -1,0 +1,56 @@
+.great_txt{
+    font-size: 44px;
+    font-weight: 500;
+    font-family: "DM Sans";
+    line-height: 0px;
+}
+
+.name_txt{
+    font-size: 124px;
+    font-weight: 600;
+    font-family: "DM Sans";
+    padding-left: 80px;
+}
+
+.role_txt{
+    padding-left:130px;
+    font-weight: 500;
+    font-family: "DM Sans";
+}
+
+.txt_block{
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    padding-top: 240px;
+    padding-left: 200px;
+}
+
+section{width:100%; max-width:960px; margin:0 auto;}
+
+.cluster{position:relative; width:100%; max-width:874px; height:792px; margin:100px auto; background-color:transparent; padding-bottom:100px;}
+
+.clusterPieces{position:absolute;}
+
+.circle{width:100%; max-width:400px; height:360px; border-radius:50%; background-color:#fc659e; left:214px; bottom:0; z-index:1;}
+
+.dotsBlue{width:100%; height:auto; max-width:494px; max-height:434px; z-index:3; left:0; top:80px;}
+
+@media screen and (max-width: 1025px) {
+   .cluster{max-width:600px; height:550px; margin:20px auto;}
+   .dotsBlue{max-width:340px;left:0; top:56px;}
+   .circle{max-width:246px; height:246px; left:146px; top:300px;}
+}
+
+@media screen and (max-width: 640px) {
+    .cluster{max-width:480px; height:436px;}
+    .dotsBlue{max-width:274px;left:0; top:45px;}
+    .circle{max-width:196px; height:196px; left:115px; top:240px;}
+}
+
+@media screen and (max-width: 540px) {
+    .clusterPieces{position:relative;}
+    .cluster{max-width:320px; height:530px;}
+    .dotsBlue{display:none}
+    .circle{display:none;}
+}

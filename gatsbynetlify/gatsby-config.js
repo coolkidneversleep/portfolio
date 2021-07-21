@@ -23,6 +23,14 @@ module.exports = {
                   family: `Quicksand`,
                   variants: [`300`, `400`, `500`],
                 },
+                {
+                  family: `Libre Franklin`,
+                  variants: [`100`, `200`, `300`, `400`, `500`, `600`],
+                },
+                {
+                  family: `DM Sans`,
+                  variants: [`300`, `400`, `500`],
+                }
               ],
             },
           },
