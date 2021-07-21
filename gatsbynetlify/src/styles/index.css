@@ -1,21 +1,21 @@
 .great_txt{
     font-size: 44px;
-    font-weight: 500;
+    font-weight: 300;
     font-family: "DM Sans";
     line-height: 0px;
 }
 
 .name_txt{
-    font-size: 124px;
-    font-weight: 600;
+    font-size: 100px;
+    font-weight: 400;
     font-family: "DM Sans";
-    padding-left: 80px;
+    padding-left: 50px;
 }
 
 .role_txt{
-    padding-left:130px;
     font-weight: 500;
     font-family: "DM Sans";
+    padding-left: 20px;
 }
 
 .txt_block{
@@ -25,6 +25,16 @@
     padding-top: 240px;
     padding-left: 200px;
 }
+.txt{
+    font-weight: 100;
+    font-size: 20px;
+    font-family: "Quicksand";
+    padding-top: 120px;
+    padding-left: 5px;
+    padding-right: 28px;
+    color: #334257;
+    line-height: 25px;
+}
 
 section{width:100%; max-width:960px; margin:0 auto;}
 
@@ -32,7 +42,7 @@ section{width:100%; max-width:960px; margin:0 auto;}
 
 .clusterPieces{position:absolute;}
 
-.circle{width:100%; max-width:400px; height:360px; border-radius:50%; background-color:#fc659e; left:214px; bottom:0; z-index:1;}
+.circle{width:100%; max-width:400px; height:360px; border-radius:50%; background-color:#fc659e; left:100px; bottom:0; z-index:1;}
 
 .dotsBlue{width:100%; height:auto; max-width:494px; max-height:434px; z-index:3; left:0; top:80px;}
 
