@@ -6,8 +6,28 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
+    `gatsby-theme-material-ui`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
+    {
+    resolve: `gatsby-theme-material-ui`,
+      options: {
+        stylesConfig: {
+          disableAutoprefixing: true,
+          disableMinification: true
+        },
+        webFontsConfig: {
+            fonts: {
+              google: [
+                {
+                  family: `Quicksand`,
+                  variants: [`300`, `400`, `500`],
+                },
+              ],
+            },
+          },
+        },
+      },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

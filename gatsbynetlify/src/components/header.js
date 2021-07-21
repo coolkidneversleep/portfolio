@@ -1,42 +1,28 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
+import { AppBar } from "@material-ui/core"
+import { Toolbar } from "@material-ui/core"
+import { Typography } from "@material-ui/core"
+import MenuIcon from '@material-ui/icons/Menu';
+import "../styles/header.css"
+import ContactMenu from "./contact_menu"
+const Header = () => {
+    return(
+      <AppBar className="appbar" position="fixed">
+        <Toolbar>
+        <div style={{display:"flex", paddingLeft:"45px", paddingTop: "15px"}}>
+          <p className="header_txt">
+              Home
+          </p>
+          <div style={{display:"flex", paddingLeft:"700px"}}>
+              <p className="header_txt">My works</p>
+              <p className="header_txt">About me</p>
+              <ContactMenu />
+          </div>
+        </div>
+        </Toolbar>
+      </AppBar>
+    )
 }
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
-
 export default Header

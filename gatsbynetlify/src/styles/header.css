@@ -1,0 +1,11 @@
+.appbar {
+    background-color: #fafafa;
+    box-shadow: none;
+}
+.header_txt{
+    color: #2C2E43;
+    margin-right: 80px;
+    font-family: "Quicksand";
+    font-weight: bold;
+    padding-top: 20px;
+}
