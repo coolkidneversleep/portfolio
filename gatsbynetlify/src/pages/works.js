@@ -4,6 +4,7 @@ import eduroom from '../images/eduroom.png';
 import vcare from '../images/vcare.png';
 import setthi from '../images/setthi_2.png';
 import famashi from '../images/famashi.jpg';
+import planme from '../images/planme.png';
 import '../styles/works.css';
 import { fontWeight } from '@material-ui/system';
 
@@ -84,7 +85,7 @@ scrollZoom();
                   <div className="text" style={{fontFamily:"DM Sans", fontSize:"20px", fontWeight:"300", paddingLeft:"350px"}}>web application</div>
                 </div>
               </div>
-              <div className="image" style={{paddingTop:"440px"}}>
+              <div className="image" style={{paddingTop:"430px"}}>
                 <img src={setthi} data-scroll-zoom width="550" height="400" style={{ borderRadius:"20px",objectFit:"cover"}}></img>
                 <div className="middle">
                   <div className="text" style={{fontFamily:"DM Sans", fontSize:"35px", paddingTop:"330px", paddingLeft:"20px"}}>setthi</div>
@@ -105,6 +106,13 @@ scrollZoom();
                 <div className="middle">
                   <div className="text" style={{fontFamily:"DM Sans", fontSize:"35px", paddingTop:"10px", paddingLeft:"20px"}}>famashi</div>
                   <div className="text" style={{fontFamily:"DM Sans", fontSize:"20px", fontWeight:"300", paddingLeft:"20px"}}>mobile application</div>
+                </div>
+              </div>
+              <div className="image" style={{paddingLeft:"130px", paddingTop:"430px"}}>
+                <img src={planme} data-scroll-zoom width="570" height="400" style={{borderRadius:"20px",objectFit:"cover"}}></img>
+                <div className="middle">
+                  <div className="text" style={{fontFamily:"DM Sans", fontSize:"35px", paddingTop:"320px", paddingLeft:"10px"}}>planme</div>
+                  <div className="text" style={{fontFamily:"DM Sans", fontSize:"20px", fontWeight:"300", paddingLeft:"10px"}}>mobile application</div>
                 </div>
               </div>
             </div>

@@ -30,6 +30,10 @@ module.exports = {
                 {
                   family: `DM Sans`,
                   variants: [`300`, `400`, `500`],
+                },
+                {
+                  family: `Lato`,
+                  variants: [`100`, `300`, `400`, `700`],
                 }
               ],
             },
