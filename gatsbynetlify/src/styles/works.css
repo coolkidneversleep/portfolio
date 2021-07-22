@@ -3,7 +3,8 @@
     color: #2C2E43;
     font-size: 70px;
     font-weight: 400;
-    padding: 40px;
+    padding: 20px;
+    padding-bottom: 40px;
     padding-top: 60px;
 }
 
@@ -22,5 +23,29 @@
   .cover {
     width: 100%;
     height: 100%;
-    background: #f8f8ff;
+    background: #ffffff;
+  }
+
+  .image :hover  {
+    cursor: pointer;
+    opacity: 0.5;
+  }
+
+
+  .image:hover .middle {
+    opacity: 2;
+  }
+  ​
+  .text {
+    font-family: "DM Sans";
+    background-color: none;
+    color: black;
+    font-size: 120px;
+    padding-top: 120px;
+    padding-left: 30px;
+  }
+
+  .large {
+    width: 550px;
+    height: 400px;
   }

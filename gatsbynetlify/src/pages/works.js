@@ -2,8 +2,10 @@ import * as React from 'react';
 import { Container } from '@material-ui/core';
 import eduroom from '../images/eduroom.png';
 import vcare from '../images/vcare.png';
-import '../styles/works.css'
-import { gsap } from "gsap";
+import setthi from '../images/setthi_2.png';
+import famashi from '../images/famashi.jpg';
+import '../styles/works.css';
+import { fontWeight } from '@material-ui/system';
 
 const WorksPage = () => {
   let scaleAmount = 0.25;
@@ -42,9 +44,6 @@ function scrollZoom() {
     });
   });
 
-  // Calculates the "percentage seen" based on when the image first enters the screen until the moment it leaves
-  // Here, we get the parent node position/height instead of the image since it's in a container that has a border, but
-  // if your container has no extra height, you can simply get the image position/height
   function percentageSeen(element) {
     const parent = element.parentNode;
     const viewportHeight = window.innerHeight;
@@ -74,16 +73,40 @@ scrollZoom();
 
 
     return (
-      <Container maxWidth="lg" style={{backgroundColor:"#f8f8ff"}}>
-        <div style={{display:"grid", gridTemplateColumns:"45% 55%"}}>
+      <Container maxWidth="lg" style={{backgroundColor:"#f8f8ff", paddingBottom:"500px"}}>
+        <div className="container" style={{display:"grid", gridTemplateColumns:"45% 55%"}}>
             <div>
-              <h2 className="heading">All of <br></br>My works</h2>
+              <h2 className="heading">All of My works</h2>
               <div className="image">
                 <img src={eduroom} data-scroll-zoom width="550" height="400" style={{ borderRadius:"20px",objectFit:"cover"}}></img>
+                <div className="middle">
+                  <div className="text" style={{fontFamily:"DM Sans", fontSize:"35px", paddingTop:"2px", paddingLeft:"350px"}}>eduroom</div>
+                  <div className="text" style={{fontFamily:"DM Sans", fontSize:"20px", fontWeight:"300", paddingLeft:"350px"}}>web application</div>
+                </div>
+              </div>
+              <div className="image" style={{paddingTop:"440px"}}>
+                <img src={setthi} data-scroll-zoom width="550" height="400" style={{ borderRadius:"20px",objectFit:"cover"}}></img>
+                <div className="middle">
+                  <div className="text" style={{fontFamily:"DM Sans", fontSize:"35px", paddingTop:"330px", paddingLeft:"20px"}}>setthi</div>
+                  <div className="text" style={{fontFamily:"DM Sans", fontSize:"20px", fontWeight:"300", paddingLeft:"20px"}}>mobile application</div>
+                </div>
               </div>
             </div>
-            <div className="image" style={{paddingLeft:"120px", paddingTop:"50px"}}>
-              <img src={vcare} data-scroll-zoom width="550" height="400" style={{borderRadius:"20px",objectFit:"cover"}}></img>
+            <div>
+              <div className="image" style={{paddingLeft:"150px", paddingTop:"50px"}}>
+                <img src={vcare} data-scroll-zoom width="550" height="400" style={{borderRadius:"20px",objectFit:"cover"}}></img>
+                <div className="middle">
+                  <div className="text" style={{fontFamily:"DM Sans", fontSize:"35px", paddingTop:"330px", paddingLeft:"20px"}}>vcare</div>
+                  <div className="text" style={{fontFamily:"DM Sans", fontSize:"20px", fontWeight:"300", paddingLeft:"20px"}}>web application</div>
+                </div>
+              </div>
+              <div className="image" style={{paddingLeft:"150px", paddingTop:"100px"}}>
+                <img src={famashi} data-scroll-zoom width="550" height="400" style={{borderRadius:"20px",objectFit:"cover"}}></img>
+                <div className="middle">
+                  <div className="text" style={{fontFamily:"DM Sans", fontSize:"35px", paddingTop:"10px", paddingLeft:"20px"}}>famashi</div>
+                  <div className="text" style={{fontFamily:"DM Sans", fontSize:"20px", fontWeight:"300", paddingLeft:"20px"}}>mobile application</div>
+                </div>
+              </div>
             </div>
         </div>
       </Container>
