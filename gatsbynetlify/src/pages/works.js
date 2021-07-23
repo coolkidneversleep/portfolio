@@ -73,7 +73,7 @@ scrollZoom();
 
 
     return (
-      <div maxWidth="lg" style={{backgroundColor:"#F4F7FB", paddingBottom:"200px", padding:"100px", paddingTop:"50px"}}>
+      <div maxWidth="lg" style={{backgroundColor:"#F4F7FB", paddingBottom:"150px", padding:"100px", paddingTop:"80px"}}>
         <div className="container" style={{display:"grid", gridTemplateColumns:"45% 55%"}}>
             <div>
               <h2 className="heading">All of My works</h2>

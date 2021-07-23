@@ -8,12 +8,12 @@ const Header = () => {
       <AppBar className="appbar" position="fixed">
         <Toolbar>
         <div style={{display:"flex", paddingLeft:"45px", paddingTop: "15px"}}>
-          <p className="header_txt">
+          <a href="/" className="header_txt">
               Home
-          </p>
+          </a>
           <div style={{display:"flex", paddingLeft:"650px"}}>
-              <p className="header_txt">My works</p>
-              <p className="header_txt">About me</p>
+              <a href="/" className="header_txt">My works</a>
+              <a href="/about-me"className="header_txt">About me</a>
               <ContactMenu />
           </div>
         </div>
