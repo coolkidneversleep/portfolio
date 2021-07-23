@@ -1,6 +1,7 @@
 import * as React from "react"
 import Header from "../components/header"
 import WorksPage from "./works"
+import AboutIntro from "./about_int"
 import '../images/profile.jpg'
 import '../styles/index.css'
 import { useRef, useEffect } from "react"
@@ -103,7 +104,6 @@ const IndexPage = () => {
             <h1 className="great_txt">Hi there,</h1><br></br>
             <h1 className="name_txt">I'm kaewket </h1>
             <h2 className="role_txt">Computer Science Student, KMUTT</h2>
-            <h3 className="txt"> I am studying as	an undergraduate in SIT at KMUTT. I like to create web applications that has good user-interface and user-experience. I always open my mind and willing to learn new things to achieve the goals.</h3>
           </div>
           <section class="cluster clusterGreat">
             <div class="circle clusterPieces"></div>
@@ -113,6 +113,7 @@ const IndexPage = () => {
 
       </div>
       <WorksPage />
+      <AboutIntro />
     </div>
 
   )

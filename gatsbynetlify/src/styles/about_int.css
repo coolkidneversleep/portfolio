@@ -1,0 +1,36 @@
+.round-button {
+    display:block;
+    width:120px;
+    height:120px;
+    line-height:80px;
+    border-radius: 50%;
+    color:#FAFAFA;
+    text-align:center;
+    text-decoration:none;
+    background: #fc659e;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "Quicksand";
+    margin-top: 40px;
+    padding-top: 18px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition:all .5s ease-in-out;
+    cursor: pointer;
+}
+.round-button:hover {
+    background:rgb(252, 101, 158);
+    /* box-shadow: 0px 15px 20px rgb(252, 101, 158); */
+    color: #fafafa;
+    cursor: pointer;
+    transform: translateY(-7px);
+}
+
+.txt{
+    font-weight: 500;
+    font-size: 24px;
+    font-family: "Quicksand";
+    padding-left: 5px;
+    padding-right: 28px;
+    color: #334257;
+    line-height: 33px;
+}

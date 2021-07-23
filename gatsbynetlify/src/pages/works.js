@@ -6,7 +6,6 @@ import setthi from '../images/setthi_2.png';
 import famashi from '../images/famashi.jpg';
 import planme from '../images/planme.png';
 import '../styles/works.css';
-import { fontWeight } from '@material-ui/system';
 
 const WorksPage = () => {
   let scaleAmount = 0.25;
@@ -74,19 +73,19 @@ scrollZoom();
 
 
     return (
-      <Container maxWidth="lg" style={{backgroundColor:"#f8f8ff", paddingBottom:"500px"}}>
+      <div maxWidth="lg" style={{backgroundColor:"#F4F7FB", paddingBottom:"200px", padding:"100px", paddingTop:"50px"}}>
         <div className="container" style={{display:"grid", gridTemplateColumns:"45% 55%"}}>
             <div>
               <h2 className="heading">All of My works</h2>
               <div className="image">
-                <img src={eduroom} data-scroll-zoom width="550" height="400" style={{ borderRadius:"20px",objectFit:"cover"}}></img>
+                <img src={eduroom} alt="" data-scroll-zoom width="550" height="400" style={{ borderRadius:"20px",objectFit:"cover"}}></img>
                 <div className="middle">
                   <div className="text" style={{fontFamily:"DM Sans", fontSize:"35px", paddingTop:"2px", paddingLeft:"350px"}}>eduroom</div>
                   <div className="text" style={{fontFamily:"DM Sans", fontSize:"20px", fontWeight:"300", paddingLeft:"350px"}}>web application</div>
                 </div>
               </div>
-              <div className="image" style={{paddingTop:"430px"}}>
-                <img src={setthi} data-scroll-zoom width="550" height="400" style={{ borderRadius:"20px",objectFit:"cover"}}></img>
+              <div className="image" style={{paddingTop:"420px"}}>
+                <img src={setthi} alt="" data-scroll-zoom width="550" height="400" style={{ borderRadius:"20px",objectFit:"cover"}}></img>
                 <div className="middle">
                   <div className="text" style={{fontFamily:"DM Sans", fontSize:"35px", paddingTop:"330px", paddingLeft:"20px"}}>setthi</div>
                   <div className="text" style={{fontFamily:"DM Sans", fontSize:"20px", fontWeight:"300", paddingLeft:"20px"}}>mobile application</div>
@@ -95,21 +94,21 @@ scrollZoom();
             </div>
             <div>
               <div className="image" style={{paddingLeft:"150px", paddingTop:"50px"}}>
-                <img src={vcare} data-scroll-zoom width="550" height="400" style={{borderRadius:"20px",objectFit:"cover"}}></img>
+                <img src={vcare} alt="" data-scroll-zoom width="550" height="400" style={{borderRadius:"20px",objectFit:"cover"}}></img>
                 <div className="middle">
                   <div className="text" style={{fontFamily:"DM Sans", fontSize:"35px", paddingTop:"330px", paddingLeft:"20px"}}>vcare</div>
                   <div className="text" style={{fontFamily:"DM Sans", fontSize:"20px", fontWeight:"300", paddingLeft:"20px"}}>web application</div>
                 </div>
               </div>
               <div className="image" style={{paddingLeft:"150px", paddingTop:"100px"}}>
-                <img src={famashi} data-scroll-zoom width="550" height="400" style={{borderRadius:"20px",objectFit:"cover"}}></img>
+                <img src={famashi} alt="" data-scroll-zoom width="550" height="400" style={{borderRadius:"20px",objectFit:"cover"}}></img>
                 <div className="middle">
                   <div className="text" style={{fontFamily:"DM Sans", fontSize:"35px", paddingTop:"10px", paddingLeft:"20px"}}>famashi</div>
                   <div className="text" style={{fontFamily:"DM Sans", fontSize:"20px", fontWeight:"300", paddingLeft:"20px"}}>mobile application</div>
                 </div>
               </div>
               <div className="image" style={{paddingLeft:"130px", paddingTop:"430px"}}>
-                <img src={planme} data-scroll-zoom width="570" height="400" style={{borderRadius:"20px",objectFit:"cover"}}></img>
+                <img src={planme} alt="" data-scroll-zoom width="570" height="400" style={{borderRadius:"20px",objectFit:"cover"}}></img>
                 <div className="middle">
                   <div className="text" style={{fontFamily:"DM Sans", fontSize:"35px", paddingTop:"320px", paddingLeft:"10px"}}>planme</div>
                   <div className="text" style={{fontFamily:"DM Sans", fontSize:"20px", fontWeight:"300", paddingLeft:"10px"}}>mobile application</div>
@@ -117,7 +116,7 @@ scrollZoom();
               </div>
             </div>
         </div>
-      </Container>
+      </div>
 
     )
   }
