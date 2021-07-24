@@ -78,11 +78,13 @@ scrollZoom();
             <div>
               <h2 className="heading">All of My works</h2>
               <div className="image">
+                <a href="/eduroom" className="link">
                 <img src={eduroom} alt="" data-scroll-zoom width="550" height="400" style={{ borderRadius:"20px",objectFit:"cover"}}></img>
                 <div className="middle">
                   <div className="text" style={{fontFamily:"DM Sans", fontSize:"35px", paddingTop:"2px", paddingLeft:"350px"}}>eduroom</div>
                   <div className="text" style={{fontFamily:"DM Sans", fontSize:"20px", fontWeight:"300", paddingLeft:"350px"}}>web application</div>
                 </div>
+                </a>
               </div>
               <div className="image" style={{paddingTop:"420px"}}>
                 <img src={setthi} alt="" data-scroll-zoom width="550" height="400" style={{ borderRadius:"20px",objectFit:"cover"}}></img>
