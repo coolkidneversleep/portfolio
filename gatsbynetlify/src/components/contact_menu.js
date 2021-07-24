@@ -75,10 +75,12 @@ const ContactMenu = () => {
                         Gmail
                     </MenuItem>
                     <MenuItem onClick={handleClose}>
+                      <a href="https://github.com/coolkidneversleep" style={{textDecoration:"none", color:"#2C2E43",paddingTop:"0px"}}>
                         <ListItemIcon>
                             <GitHubIcon fontSize="small" />
                         </ListItemIcon>
                         Github
+                      </a>
                     </MenuItem>
                   </MenuList>
                 </ClickAwayListener>

@@ -6,7 +6,7 @@ const AboutIntro = () => {
         <div className="txt"> I like to create web applications that has good user-interface</div>
         <div className="txt">and user-experience. And I always open my mind </div>
         <div className="txt">and willing to learn new things to achieve the goals.</div>
-        <a href="/about-me" className="round-button">About me</a>
+        <a href="/about-me" className="round-button" id="bottom">About me</a>
     </div>
     )
 }

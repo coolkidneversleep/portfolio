@@ -2,6 +2,7 @@ import * as React from "react"
 import Header from "../components/header"
 import WorksPage from "./works"
 import AboutIntro from "./about_int"
+import Footer from '../components/footer'
 import '../images/profile.jpg'
 import '../styles/index.css'
 import { useRef, useEffect } from "react"
@@ -114,6 +115,7 @@ const IndexPage = () => {
       </div>
       <WorksPage />
       <AboutIntro />
+      <Footer />
     </div>
 
   )

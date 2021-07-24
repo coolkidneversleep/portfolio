@@ -27,7 +27,7 @@
 }
 
 
-section{width:100%; max-width:960px; margin:0 auto;}
+section{width:100%; max-width:100px; margin:0 auto;}
 
 .cluster{position:relative; width:100%; max-width:874px; height:792px; margin:100px auto; background-color:transparent; padding-bottom:120px;}
 

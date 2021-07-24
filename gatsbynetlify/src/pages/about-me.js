@@ -2,6 +2,7 @@ import * as React from 'react';
 import Header from '../components/header';
 import '../styles/aboutme.css';
 import profile from '../images/profile2.jpg'
+import Footer from '../components/footer';
 
 const AboutMe = () => {
     return (
@@ -67,6 +68,7 @@ const AboutMe = () => {
                         </div>
                     </div>
                 </div>
+                <Footer />
             </div>
         </div>
     )
