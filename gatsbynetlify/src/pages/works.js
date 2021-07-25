@@ -115,12 +115,14 @@ scrollZoom();
                 </div>
                 </a>
               </div>
-              <div className="image" style={{paddingLeft:"130px", paddingTop:"430px"}}>
-                <img src={planme} alt="" data-scroll-zoom width="570" height="400" style={{borderRadius:"20px",objectFit:"cover"}}></img>
-                <div className="middle">
-                  <div className="text" style={{fontFamily:"DM Sans", fontSize:"35px", paddingTop:"320px", paddingLeft:"10px"}}>planme</div>
-                  <div className="text" style={{fontFamily:"DM Sans", fontSize:"20px", fontWeight:"300", paddingLeft:"10px"}}>mobile application</div>
-                </div>
+              <div className="image" style={{paddingLeft:"130px", paddingTop:"450px"}}>
+                <a href="/planme" className="link">
+                  <img src={planme} alt="" data-scroll-zoom width="570" height="400" style={{borderRadius:"20px",objectFit:"cover"}}></img>
+                  <div className="middle">
+                    <div className="text" style={{fontFamily:"DM Sans", fontSize:"35px", paddingTop:"320px", paddingLeft:"10px"}}>planme</div>
+                    <div className="text" style={{fontFamily:"DM Sans", fontSize:"20px", fontWeight:"300", paddingLeft:"10px"}}>mobile application</div>
+                  </div>
+                </a>
               </div>
             </div>
         </div>
