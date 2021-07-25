@@ -86,12 +86,14 @@ scrollZoom();
                 </div>
                 </a>
               </div>
-              <div className="image" style={{paddingTop:"420px"}}>
+              <div className="image" style={{paddingTop:"440px"}}>
+                <a href="/setthi" className="link">
                 <img src={setthi} alt="" data-scroll-zoom width="550" height="400" style={{ borderRadius:"20px",objectFit:"cover"}}></img>
                 <div className="middle">
                   <div className="text" style={{fontFamily:"DM Sans", fontSize:"35px", paddingTop:"330px", paddingLeft:"20px"}}>setthi</div>
                   <div className="text" style={{fontFamily:"DM Sans", fontSize:"20px", fontWeight:"300", paddingLeft:"20px"}}>mobile application</div>
                 </div>
+                </a>
               </div>
             </div>
             <div>
