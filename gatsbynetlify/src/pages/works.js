@@ -107,11 +107,13 @@ scrollZoom();
                 </a>
               </div>
               <div className="image" style={{paddingLeft:"150px", paddingTop:"100px"}}>
+                <a href="/famashi" className="link">
                 <img src={famashi} alt="" data-scroll-zoom width="550" height="400" style={{borderRadius:"20px",objectFit:"cover"}}></img>
                 <div className="middle">
                   <div className="text" style={{fontFamily:"DM Sans", fontSize:"35px", paddingTop:"10px", paddingLeft:"20px"}}>famashi</div>
                   <div className="text" style={{fontFamily:"DM Sans", fontSize:"20px", fontWeight:"300", paddingLeft:"20px"}}>mobile application</div>
                 </div>
+                </a>
               </div>
               <div className="image" style={{paddingLeft:"130px", paddingTop:"430px"}}>
                 <img src={planme} alt="" data-scroll-zoom width="570" height="400" style={{borderRadius:"20px",objectFit:"cover"}}></img>
