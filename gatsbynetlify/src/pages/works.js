@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Container } from '@material-ui/core';
 import eduroom from '../images/eduroom.png';
-import vcare from '../images/vcare.png';
+import vcare_img from '../images/vcare.png';
 import setthi from '../images/setthi_2.png';
 import famashi from '../images/famashi.jpg';
 import planme from '../images/planme.png';
@@ -73,7 +73,7 @@ scrollZoom();
 
 
     return (
-      <div maxWidth="lg" style={{backgroundColor:"#F4F7FB", paddingBottom:"150px", padding:"100px", paddingTop:"100px"}}>
+      <div maxWidth="lg" style={{backgroundColor:"#F4F7FB", paddingBottom:"150px", padding:"100px", paddingTop:"120px"}}>
         <div className="container" style={{display:"grid", gridTemplateColumns:"45% 55%"}}>
             <div>
               <h2 className="heading">All of My works</h2>
@@ -96,11 +96,13 @@ scrollZoom();
             </div>
             <div>
               <div className="image" style={{paddingLeft:"150px", paddingTop:"50px"}}>
-                <img src={vcare} alt="" data-scroll-zoom width="550" height="400" style={{borderRadius:"20px",objectFit:"cover"}}></img>
+                <a href="/vcare" className="link">
+                <img src={vcare_img} alt="" data-scroll-zoom width="550" height="400" style={{borderRadius:"20px",objectFit:"cover"}}></img>
                 <div className="middle">
                   <div className="text" style={{fontFamily:"DM Sans", fontSize:"35px", paddingTop:"330px", paddingLeft:"20px"}}>vcare</div>
                   <div className="text" style={{fontFamily:"DM Sans", fontSize:"20px", fontWeight:"300", paddingLeft:"20px"}}>web application</div>
                 </div>
+                </a>
               </div>
               <div className="image" style={{paddingLeft:"150px", paddingTop:"100px"}}>
                 <img src={famashi} alt="" data-scroll-zoom width="550" height="400" style={{borderRadius:"20px",objectFit:"cover"}}></img>
