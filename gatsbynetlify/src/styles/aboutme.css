@@ -68,3 +68,55 @@
     font-weight: 400;
     margin-bottom: 10px;
 }
+.card_link{
+    font-family: "Quicksand";
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2C2E43;
+    overflow: hidden;
+    background: linear-gradient(to right, #fc659e 50%, midnightblue, #2C2E43 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+    text-decoration: none; 
+}
+/* .card_link::after {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: #fc659e;
+    transition: all 0.5s;
+  } */
+  
+  .card_link:hover{
+    background-position: 0 100%;
+  }
+
+  .icon_link{
+    font-family: "Quicksand";
+    position: relative;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 500;
+    color: #2C2E43;
+    overflow: hidden;
+    background: linear-gradient(to right, #fc659e 50%, midnightblue, #2C2E43 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+    text-decoration: none; 
+  }
+  .icon_link:hover{
+    background-position: 0 100%;
+  }

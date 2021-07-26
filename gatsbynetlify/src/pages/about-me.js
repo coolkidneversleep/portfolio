@@ -4,7 +4,7 @@ import '../styles/aboutme.css';
 import profile from '../images/profile2.jpg'
 import Footer from '../components/footer';
 import { Helmet } from 'react-helmet';
-import ScrollReveal from 'scrollreveal';
+import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 
 const AboutMe = () => {
     
@@ -41,15 +41,29 @@ const AboutMe = () => {
                             </div>
                         </div>
                         <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak">
-                            <p className="award" style={{paddingTop:"75px"}}>First Runner-up Award ICT contest 12 </p>
-                            <p className="date">IOT (smart nodeMCU)</p>
-                            <p className="date">November 2019</p>
-                            <hr></hr>
+                            
+                                <p className="award" style={{paddingTop:"75px"}}>First Runner-up Award ICT contest 12 </p>
+                                <p className="date">IOT (smart nodeMCU)</p>
+                                <div style={{display:"grid", gridTemplateColumns:"75% 25%"}}>
+                                    <p className="date">November 2019</p>
+                                    <div>
+                                        <a className="card_link" href="/">Read more </a>
+                                        <ChevronRightIcon className="icon_link"></ChevronRightIcon>
+                                    </div>
+                                </div>
+                                
+                                <hr></hr>
                         </div>
                         <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak">
                             <p className="award">First Runner-up Award ICT contest 13 </p>
                             <p className="date">AI (chatbot)</p>
-                            <p className="date">November 2020</p>
+                            <div style={{display:"grid", gridTemplateColumns:"75% 25%"}}>
+                                <p className="date">November 2020</p>
+                                <div>
+                                    <a className="card_link" href="/">Read more </a>
+                                    <ChevronRightIcon className="icon_link"></ChevronRightIcon>
+                                </div>
+                            </div>
                             <hr></hr>
                         </div>
                         <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak" style={{ display: "grid", gridTemplateColumns:"25% 25% 25% 25%", paddingTop:"40px", paddingBottom:"60px"}}>
