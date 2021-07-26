@@ -20,7 +20,7 @@ const Footer = () => {
                         </ListItemIcon>
                 </a>
             </div>
-            <p class="copyright">Copyright @2021 | Designed With by Kaewket Saelee</p>
+            <p class="copyright">Copyright @2021 | Designed by Kaewket Saelee</p>
         </footer>
     </div>
 

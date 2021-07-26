@@ -54,7 +54,11 @@ const ContactMenu = () => {
           style={{textTransform:"capitalize", color:"#2C2E43", fontFamily:"Quicksand", paddingTop:"20px"}}
           className="header_txt" id="nav"
         >
-          Contact
+          <div style={{display:"grid", gridTemplateColumns:"auto auto"}}>
+            <div>Contact</div>
+            <ArrowDropDownIcon></ArrowDropDownIcon>
+          </div>
+          
           {/* <ListItemIcon >
               <ArrowDropDownIcon fontSize="normal"/>
           </ListItemIcon> */}

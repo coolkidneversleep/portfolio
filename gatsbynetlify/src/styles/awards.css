@@ -1,0 +1,35 @@
+.award_name{
+    padding-top: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    font-family: "Quicksand";
+    color: #2C2E43;
+    font-size: 50px;
+    font-weight: 600;
+}
+.descript{
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    font-family: "Quicksand";
+    color: #2C2E43;
+    font-size: 22px;
+    font-weight: 500;
+}
+.org{
+    font-family: "Quicksand";
+    color: rgb(145, 145, 145);
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+.msg{
+    font-family: "Quicksand";
+    color: #2C2E43;
+    font-size: 21px;
+    font-weight: 500;
+    padding-left: 0px;
+}

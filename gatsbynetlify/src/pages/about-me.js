@@ -26,7 +26,7 @@ const AboutMe = () => {
 
                     </div>
                     <div>
-                        <div data-sal="slide-up" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak" className="name" style={{paddingLeft:"5px"}}>Kaewket Saelee</div>
+                        <div data-sal="slide-up" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak" className="name" style={{paddingLeft:"5px", color:"#6C5CE7"}}>Kaewket Saelee</div>
                         <div data-sal="slide-up" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak"className="intro">I am studying as an undergraduate in SIT at KMUTT. I have completed several projects such as web applications, mobile applications. I used to work on both frontend and backend. Also received awards in 2019-2020.<br></br> My strength is opening my mind and willing to learn new things to achieve targets and objectives.</div>
                         <div data-sal="slide-up" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak" style={{ display: "grid", gridTemplateColumns: "auto auto", paddingTop:"135px"}}>
                             <div>
@@ -37,7 +37,7 @@ const AboutMe = () => {
                                 <p className="year">2019 - Present</p>
                                 <p className="school">King Mongkut's University of Technology Thonburi<br></br>
                                 studying bachelor's degree (3rd year), computer science,<br></br> school of information techonology<br></br>
-                                gpax : 3.70</p>
+                                gpax : 3.72</p>
                             </div>
                         </div>
                         <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak">
@@ -47,7 +47,7 @@ const AboutMe = () => {
                                 <div style={{display:"grid", gridTemplateColumns:"75% 25%"}}>
                                     <p className="date">November 2019</p>
                                     <div>
-                                        <a className="card_link" href="/">Read more </a>
+                                        <a className="card_link" href="/award_1">Read more </a>
                                         <ChevronRightIcon className="icon_link"></ChevronRightIcon>
                                     </div>
                                 </div>
@@ -60,10 +60,10 @@ const AboutMe = () => {
                             <div style={{display:"grid", gridTemplateColumns:"75% 25%"}}>
                                 <p className="date">November 2020</p>
                                 <div>
-                                    <a className="card_link" href="/">Read more </a>
-                                    <ChevronRightIcon className="icon_link"></ChevronRightIcon>
+                                    <a className="card_link" href="/award_2">Read more </a>
+                                        <ChevronRightIcon className="icon_link"></ChevronRightIcon>
+                                    </div>
                                 </div>
-                            </div>
                             <hr></hr>
                         </div>
                         <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak" style={{ display: "grid", gridTemplateColumns:"25% 25% 25% 25%", paddingTop:"40px", paddingBottom:"60px"}}>
