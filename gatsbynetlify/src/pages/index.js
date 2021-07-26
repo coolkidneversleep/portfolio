@@ -118,7 +118,7 @@ const IndexPage = () => {
         </div>
 
       </div>
-      <TestWorksPage/>
+      <WorksPage/>
       <div data-sal="slide-up" data-sal-duration="2000" data-sal-delay="5" data-sal-easing="easeOutBack">
         <AboutIntro/> 
       </div>

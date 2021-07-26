@@ -76,7 +76,7 @@ scrollZoom();
       <div maxWidth="lg" style={{backgroundColor:"#F4F7FB", paddingBottom:"150px", padding:"100px", paddingTop:"120px"}}>
         <div className="container" style={{display:"grid", gridTemplateColumns:"45% 55%"}}>
             <div>
-              <h2 className="heading">All of My works</h2>
+              <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak"><h2 className="heading">All of My works</h2></div>
               <div className="image">
                 <a href="/eduroom" className="link">
                 <img src={eduroom} alt="" data-scroll-zoom width="550" height="400" style={{ borderRadius:"20px",objectFit:"cover"}}></img>
@@ -90,7 +90,7 @@ scrollZoom();
                 <a href="/setthi" className="link">
                 <img src={setthi} alt="" data-scroll-zoom width="550" height="400" style={{ borderRadius:"20px",objectFit:"cover"}}></img>
                 <div className="middle">
-                  <div className="text" style={{fontFamily:"DM Sans", fontSize:"35px", paddingTop:"330px", paddingLeft:"20px"}}>setthi</div>
+                  <div className="text" style={{fontFamily:"DM Sans", fontSize:"35px", paddingTop:"310px", paddingLeft:"20px"}}>setthi</div>
                   <div className="text" style={{fontFamily:"DM Sans", fontSize:"20px", fontWeight:"300", paddingLeft:"20px"}}>mobile application</div>
                 </div>
                 </a>
@@ -101,7 +101,7 @@ scrollZoom();
                 <a href="/vcare" className="link">
                 <img src={vcare_img} alt="" data-scroll-zoom width="550" height="400" style={{borderRadius:"20px",objectFit:"cover"}}></img>
                 <div className="middle">
-                  <div className="text" style={{fontFamily:"DM Sans", fontSize:"35px", paddingTop:"330px", paddingLeft:"20px"}}>vcare</div>
+                  <div className="text" style={{fontFamily:"DM Sans", fontSize:"35px", paddingTop:"310px", paddingLeft:"20px"}}>vcare</div>
                   <div className="text" style={{fontFamily:"DM Sans", fontSize:"20px", fontWeight:"300", paddingLeft:"20px"}}>web application</div>
                 </div>
                 </a>
@@ -110,8 +110,8 @@ scrollZoom();
                 <a href="/famashi" className="link">
                 <img src={famashi} alt="" data-scroll-zoom width="550" height="400" style={{borderRadius:"20px",objectFit:"cover"}}></img>
                 <div className="middle">
-                  <div className="text" style={{fontFamily:"DM Sans", fontSize:"35px", paddingTop:"10px", paddingLeft:"20px"}}>famashi</div>
-                  <div className="text" style={{fontFamily:"DM Sans", fontSize:"20px", fontWeight:"300", paddingLeft:"20px"}}>mobile application</div>
+                  <div className="text" style={{fontFamily:"DM Sans", fontSize:"35px", paddingTop:"10px", paddingLeft:"40px"}}>famashi</div>
+                  <div className="text" style={{fontFamily:"DM Sans", fontSize:"20px", fontWeight:"300", paddingLeft:"40px"}}>mobile application</div>
                 </div>
                 </a>
               </div>
