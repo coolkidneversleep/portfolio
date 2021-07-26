@@ -3,7 +3,10 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import '../styles/prj.css';
 import image from '../images/eduroom-mac.png';
+
+
 const Eduroom = () => {
+
     return(
         <div>
             <Header />
@@ -27,9 +30,12 @@ const Eduroom = () => {
                             </div>
                         </div>
                     </div>
+                    {/* <div className="img-container"> */}
                     <div style={{paddingLeft:"142px", paddingTop:"140px", backgroundColor:"#FBCFFC", height:'680px'}}>
                         <img src={image} width="725px" height="500px" style={{objectFit:"cover"}} className="crop"></img>
                     </div>
+                    {/* <div className="overlay"></div> */}
+                    {/* </div> */}
                 </div>
                 <div style={{paddingTop:'20px',paddingLeft:"20px"}}>
                     <div style={{display:"grid",gridTemplateColumns:"40% 60%"}}>
