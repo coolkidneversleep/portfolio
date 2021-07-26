@@ -51,13 +51,13 @@ const ContactMenu = () => {
           aria-controls={open ? 'menu-list-grow' : undefined}
           aria-haspopup="true"
           onClick={handleToggle}
-          style={{textTransform:"capitalize", color:"#2C2E43", fontFamily:"Quicksand"}}
-          className="header_txt"
+          style={{textTransform:"capitalize", color:"#2C2E43", fontFamily:"Quicksand", paddingTop:"20px"}}
+          className="header_txt" id="nav"
         >
           Contact
-          <ListItemIcon>
+          {/* <ListItemIcon >
               <ArrowDropDownIcon fontSize="normal"/>
-          </ListItemIcon>
+          </ListItemIcon> */}
         </Button>
         <Popper open={open} anchorEl={anchorRef.current} role={undefined} transition disablePortal>
           {({ TransitionProps, placement }) => (

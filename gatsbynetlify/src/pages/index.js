@@ -16,7 +16,7 @@ const IndexPage = () => {
   gsap.set(".circle", { yPercent: -15 });
   gsap.set(".dotsBlue", { yPercent: 20 });
   gsap.to(".circle", {
-    yPercent: 15,
+    yPercent: 25,
     ease: "none",
     scrollTrigger: {
       trigger: ".clusterGreat",
@@ -25,7 +25,7 @@ const IndexPage = () => {
   });
 
   gsap.to(".dotsBlue", {
-    yPercent: -20,
+    yPercent: -10,
     ease: "none",
     scrollTrigger: {
       trigger: ".clusterGreat",
