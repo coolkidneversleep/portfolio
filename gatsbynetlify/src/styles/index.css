@@ -15,7 +15,8 @@
 .role_txt{
     font-weight: 500;
     font-family: "DM Sans";
-    padding-left: 20px;
+    padding-left: 0px;
+    padding-top: 10px;
 }
 
 .txt_block{
@@ -23,7 +24,7 @@
     flex-flow: column;
     align-items: start;
     padding-top: 240px;
-    padding-left: 200px;
+    padding-left: 160px;
 }
 
 
@@ -33,9 +34,9 @@ section{width:100%; max-width:100px; margin:0 auto;}
 
 .clusterPieces{position:absolute;}
 
-.circle{width:100%; max-width:400px; height:360px; border-radius:50%; background-color:#fc659e; left:100px; bottom:0; z-index:1;}
+.circle{width:100%; max-width:400px; height:360px; border-radius:50%; background-color:#fc659e; left:80px; bottom:0; z-index:1;}
 
-.dotsBlue{width:100%; height:auto; max-width:494px; max-height:434px; z-index:3; left:0; top:80px;}
+.dotsBlue{width:100%; height:auto; max-width:510px; max-height:434px; z-index:3; left:70px; top:80px;}
 
 @media screen and (max-width: 1025px) {
    .cluster{max-width:600px; height:550px; margin:20px auto;}

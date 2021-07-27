@@ -28,18 +28,19 @@
 
   .image :hover  {
     cursor: pointer;
-    opacity: 0.5;
+    opacity: 0.8;
   }
 
 
   .image:hover .middle {
-    opacity: 2;
+    opacity: 1;
   }
   ​
   .text {
     font-family: "DM Sans";
     background-color: none;
     color: black;
+    font-weight: bold;
     font-size: 120px;
     padding-top: 120px;
     padding-left: 30px;

@@ -115,7 +115,7 @@ scrollZoom();
                 </div>
                 </a>
               </div>
-              <div className="image" style={{paddingLeft:"130px", paddingTop:"450px"}}>
+              <div className="image" style={{paddingLeft:"150px", paddingTop:"450px"}}>
                 <a href="/planme" className="link">
                   <img src={planme} alt="" data-scroll-zoom width="570" height="400" style={{borderRadius:"20px",objectFit:"cover"}}></img>
                   <div className="middle">
