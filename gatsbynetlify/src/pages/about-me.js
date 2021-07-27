@@ -18,14 +18,14 @@ const AboutMe = () => {
                              <img src={profile} alt="" height="350" width="320" className="image" ></img> 
                         </div>
                         </div>
-                        <div  data-sal="slide-right" data-sal-duration="2000" data-sal-delay="5" data-sal-easing="easeOutBreak" className="title" style={{paddingTop:"415px",paddingLeft: "150px", }}>
-                            <div className="topic_box" style={{paddingLeft: "15px",paddingRight: "15px"}}>Education</div>
+                        <div  data-sal="slide-right" data-sal-duration="2000" data-sal-delay="5" data-sal-easing="easeOutBreak" className="title" style={{paddingTop:"415px",paddingLeft: "150px",color:"#fc659e" }}>
+                        Education
                         </div>
-                        <div data-sal="slide-right" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak"className="title" style={{paddingTop:"190px",paddingLeft: "150px"}}>
-                            <div className="topic_box" style={{paddingLeft: "15px",paddingRight: "15px",backgroundColor:"#CFF6F4"}}>Awards</div>
+                        <div data-sal="slide-right" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak"className="title" style={{paddingTop:"190px",paddingLeft: "150px",color:"#33CCC0"}}>
+                         Awards
                         </div>
-                        <div data-sal="slide-right" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak"className="title" style={{paddingTop:"360px",paddingLeft: "150px"}}>
-                            <div className="topic_box" style={{paddingLeft: "15px",paddingRight: "15px",backgroundColor:"#FFF4D0"}}>Techs &Tools</div>
+                        <div data-sal="slide-right" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak"className="title" style={{paddingTop:"360px",paddingLeft: "150px", color:"#FBC921"}}>
+                        Techs &Tools
                         </div>
 
                     </div>
@@ -38,7 +38,7 @@ const AboutMe = () => {
                                 <p className="school">Benjamarachalai School<br></br>gifted program<br></br><br></br>gpax : 3.80</p>
                             </div>
                             <div>
-                                <div className="box_color" style={{backgroundColor:"#FFF4D0"}}><p className="year">2019 - Present</p></div>
+                                <div className="box_color" style={{backgroundColor:"#FFE89A"}}><p className="year">2019 - Present</p></div>
                                 <p className="school">King Mongkut's University of Technology Thonburi<br></br>
                                 studying bachelor's degree (3rd year), computer science,<br></br> school of information techonology<br></br>
                                 gpax : 3.72</p>
