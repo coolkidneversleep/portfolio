@@ -19,7 +19,7 @@
 }
 .title{
     font-family: "Quicksand";
-    color: #2C2E43;
+    color: #383a49;
     font-size: 45px;
     font-weight: 500;
     padding-left: 400px;
@@ -84,6 +84,21 @@
     background-position: 100%;
     transition: background-position 275ms ease;
     text-decoration: none; 
+}
+.topic_box{
+ background-color: #ffdcf6;
+ border-radius: 15px;
+ width: max-content;
+ height: max-content;
+}
+.box_color{
+  width: max-content;
+  height: max-content;
+  background-color: #c8f1ef;
+  border-radius:10px;
+  padding:5px;
+  padding-bottom: 0px;
+  padding-right:15px;
 }
 /* .card_link::after {
     position: absolute;
