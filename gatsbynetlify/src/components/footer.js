@@ -14,7 +14,7 @@ const Footer = () => {
                             <GitHubIcon fontSize="small" />
                         </ListItemIcon>
                 </a>
-                <a href="https://github.com/coolkidneversleep" style={{textDecoration:"none", color:"#2C2E43",paddingTop:"0px"}}>
+                <a href="mailto:kaewketsaelee@gmail.com" style={{textDecoration:"none", color:"#2C2E43",paddingTop:"0px"}}>
                         <ListItemIcon>
                             <DraftsIcon fontSize="small" />
                         </ListItemIcon>

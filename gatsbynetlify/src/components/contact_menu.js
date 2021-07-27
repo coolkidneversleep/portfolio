@@ -73,11 +73,12 @@ const ContactMenu = () => {
                 <ClickAwayListener onClickAway={handleClose}>
                   <MenuList autoFocusItem={open} id="menu-list-grow" onKeyDown={handleListKeyDown}>
                     <MenuItem onClick={handleClose}>
-                      <a href="mailto:kaewketsaelee@gmail.com" style={{textDecoration:"none", color:"#2C2E43",paddingTop:"0px"}}></a>
+                      <a href="mailto:kaewketsaelee@gmail.com" style={{textDecoration:"none", color:"#2C2E43",paddingTop:"0px"}}>
                         <ListItemIcon>
                             <DraftsIcon fontSize="small" />
                         </ListItemIcon>
                         Gmail
+                      </a>
                     </MenuItem>
                     <MenuItem onClick={handleClose}>
                       <a href="https://github.com/coolkidneversleep" style={{textDecoration:"none", color:"#2C2E43",paddingTop:"0px"}}>
