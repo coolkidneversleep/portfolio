@@ -55,3 +55,252 @@
     text-decoration: none;
     color:#2C2E43;
   }
+  .work_name{
+    font-family: "Quicksand";
+    position: relative;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 600;
+    color: #2C2E43;
+    overflow: hidden;
+    background: linear-gradient(to right, #fc659e 50%, midnightblue, #2C2E43 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+    text-decoration: none; 
+}
+.work_name:hover{
+  background-position: 0 100%;
+}
+.go-corner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  background-color: #fc659e;
+  border-radius: 0 4px 0 32px;
+}
+.go-arrow {
+  margin-top: -4px;
+  margin-right: -4px;
+  color: white;
+  font-family: courier, sans;
+}
+
+.card1 {
+  display: block;
+  position: relative;
+  max-width: 600px;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 40px 20px;
+  padding-right: 0px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  color: #2C2E43;
+  font-family: "Quicksand";
+  font-size: 22px;
+  font-weight: 500;
+}
+.card1:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: #FFF2FB;
+    color: white;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.25s ease-out;
+}
+.card1:hover:before {
+    transform: scale(21);
+}
+
+.card1:hover {
+  color: #2C2E43;
+  font-family: "Quicksand";
+  font-size: 24px;
+  font-weight: 500;
+}
+.card_setthi{
+  display: block;
+  position: relative;
+  max-width: 600px;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 40px 20px;
+  padding-right: 0px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  color: #2C2E43;
+  font-family: "Quicksand";
+  font-size: 22px;
+  font-weight: 500;
+}
+.card_setthi:before{
+  content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: #FFF6DA;
+    color: white;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.25s ease-out;
+}
+.card_setthi:hover:before {
+  transform: scale(21);
+}
+.card_setthi:hover {
+  color: #2C2E43;
+  font-family: "Quicksand";
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.card_vcare{
+  display: block;
+  position: relative;
+  max-width: 600px;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 40px 20px;
+  padding-right: 0px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  color: #2C2E43;
+  font-family: "Quicksand";
+  font-size: 22px;
+  font-weight: 500;
+}
+.card_vcare:before{
+  content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: #E0E8FD;
+    color: white;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.25s ease-out;
+}
+.card_vcare:hover:before {
+  transform: scale(21);
+}
+.card_vcare:hover {
+  color: #2C2E43;
+  font-family: "Quicksand";
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.card_famashi{
+  display: block;
+  position: relative;
+  max-width: 600px;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 40px 20px;
+  padding-right: 0px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  color: #2C2E43;
+  font-family: "Quicksand";
+  font-size: 22px;
+  font-weight: 500;
+}
+.card_famashi:before{
+  content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: #E9E1FA;
+    color: white;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.25s ease-out;
+}
+.card_famashi:hover:before {
+  transform: scale(21);
+}
+.card_famashi:hover {
+  color: #2C2E43;
+  font-family: "Quicksand";
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.card_planme{
+  display: block;
+  position: relative;
+  max-width: 600px;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 40px 20px;
+  padding-right: 0px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  color: #2C2E43;
+  font-family: "Quicksand";
+  font-size: 22px;
+  font-weight: 500;
+}
+.card_planme:before{
+  content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: #E6F4FC;
+    color: white;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.25s ease-out;
+}
+.card_planme:hover:before {
+  transform: scale(21);
+}
+.card_planme:hover {
+  color: #2C2E43;
+  font-family: "Quicksand";
+  font-size: 24px;
+  font-weight: 500;
+}
