@@ -31,7 +31,7 @@ const Eduroom = () => {
                         </div>
                     </div>
                     {/* <div className="img-container"> */}
-                    <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak" >
+                    <div >
                     <div style={{paddingLeft:"142px", paddingTop:"140px", backgroundColor:"#FBCFFC", height:'680px'}}>
                         <img src={image} width="725px" height="500px" style={{objectFit:"cover"}} className="crop"></img>
                     </div>

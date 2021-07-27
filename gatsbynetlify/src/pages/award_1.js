@@ -14,7 +14,7 @@ const Awards = () => {
                        <img src={award_1} alt=""  width="570px" height="400px"></img> 
                     </div>
                     <div style={{paddingTop:"0px",paddingRight:"120px",paddingLeft:"30px"}} data-sal="slide-up" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak">
-                        <div className="award_name"> ICT Contest 12 </div>
+                        <div className="award_name" style={{color:"#675BBE"}}> ICT Contest 12 </div>
                         <div className="descript">The Ultimate Craft Project Telecommunications and ICT to honor His Majesty the King No. 12</div>
                         <div style={{display:"grid",gridTemplateColumns:"auto auto"}}>
                             <div>

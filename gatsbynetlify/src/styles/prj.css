@@ -4,7 +4,7 @@
     padding-right: 0px;
     padding-bottom: 0px;
     font-family: "Quicksand";
-    color: #2C2E43;
+    color: #5545cf;
     font-size: 100px;
     font-weight: 500;
 
@@ -34,6 +34,13 @@
     padding-top: 50px;
     padding-left: 240px;
 }
+.topic_box{
+    background-color: #EC6697;
+    border-radius: 15px;
+    width: max-content;
+    height: max-content;
+    color:white;
+   }
 .des{
     font-family: "Quicksand";
     color: #2C2E43;
