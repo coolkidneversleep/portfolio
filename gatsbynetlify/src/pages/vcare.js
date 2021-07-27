@@ -27,7 +27,7 @@ const Vcare = () => {
                             </div>
                         </div>
                     </div>
-                    <div style={{paddingLeft:"3px", paddingTop:"140px"}}>
+                    <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak" style={{paddingLeft:"3px", paddingTop:"140px"}}>
                         <img src={image} height="470px" width="860px"></img>
                     </div>
             </div>

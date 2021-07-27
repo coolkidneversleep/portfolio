@@ -27,7 +27,7 @@ const Planme = () => {
                             </div>
                         </div>
                     </div>
-                    <div style={{paddingLeft:"9px", paddingTop:"120px"}}>
+                    <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak"  style={{paddingLeft:"9px", paddingTop:"120px"}}>
                         <img src={planme_img} height="600px" width="860px"></img>
                     </div>
             </div>
