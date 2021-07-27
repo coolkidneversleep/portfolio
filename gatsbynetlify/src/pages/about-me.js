@@ -3,16 +3,12 @@ import Header from '../components/header';
 import '../styles/aboutme.css';
 import profile from '../images/profile2.jpg'
 import Footer from '../components/footer';
-import { Helmet } from 'react-helmet';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 
 const AboutMe = () => {
     
     return (
         <div>
-            <Helmet>
-                <script src="https://unpkg.com/scrollreveal"></script>
-            </Helmet>
             <Header />
             <div style={{ display: "grid", gridTemplateRows: "auto" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "40% 60%" }}>

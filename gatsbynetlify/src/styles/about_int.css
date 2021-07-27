@@ -48,6 +48,12 @@
     transform: scale(1); 
 }
 
+.cert{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Quicksand";
+    color: #334257;
+}
 
   
 

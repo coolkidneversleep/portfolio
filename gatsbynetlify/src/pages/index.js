@@ -3,13 +3,12 @@ import Header from "../components/header"
 import WorksPage from "./works"
 import AboutIntro from "./about_int"
 import Footer from '../components/footer'
-import TestWorksPage from "./test_work"
 import '../images/profile.jpg'
 import '../styles/index.css'
 import { useRef, useEffect } from "react"
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Helmet } from "react-helmet"
+
 
 
 const IndexPage = () => {
@@ -100,9 +99,6 @@ const IndexPage = () => {
   }, []);
   return (
     <div className="App" ref={ref}>
-      <Helmet>
-        <script src="https://unpkg.com/scrollreveal"></script>
-      </Helmet>
       <Header />
       <div style={{ display: "grid", gridTemplateRows: "auto" }}>
         <div style={{ display: "grid", gridTemplateColumns: "60% 40%" }}>
