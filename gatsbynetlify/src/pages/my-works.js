@@ -11,9 +11,6 @@ import Footer from '../components/footer';
 
 
 const MyWorksPage = () => {
-    window.onbeforeunload = function () {
-        window.scrollTo(0,0);
-    };    
   return (
     <div>
         <Header />

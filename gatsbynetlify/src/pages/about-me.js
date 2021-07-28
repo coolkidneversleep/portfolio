@@ -5,10 +5,7 @@ import profile from '../images/profile2.jpg'
 import Footer from '../components/footer';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 
-const AboutMe = () => {
-    window.onbeforeunload = function () {
-        window.scrollTo(0,0);
-    };    
+const AboutMe = () => { 
     return (
         <div>
             <Header />
