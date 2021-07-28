@@ -5,7 +5,7 @@ import "../styles/header.css"
 import ContactMenu from "./contact_menu"
 const Header = () => {
     return(
-      <AppBar className="appbar" position="fixed">
+      <AppBar className="appbar" position="fixed" style={{backgroundColor:"white"}}>
         <Toolbar>
         <div style={{display:"flex", paddingLeft:"45px", paddingTop: "15px"}}>
           <a href="/" id="nav">
