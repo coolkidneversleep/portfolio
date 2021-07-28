@@ -13,6 +13,9 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 
 const IndexPage = () => {
+  window.onbeforeunload = function () {
+    window.scrollTo(0,0);
+  };    
   gsap.set(".circle", { yPercent: -15 });
   gsap.set(".dotsBlue", { yPercent: 20 });
   gsap.to(".circle", {
@@ -117,7 +120,9 @@ const IndexPage = () => {
         </div>
 
       </div>
+      <div id="#works">
       <WorksPage/>
+      </div>
       <div data-sal="slide-up" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBack">
         <AboutIntro/> 
       </div>

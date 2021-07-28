@@ -12,7 +12,7 @@ const Header = () => {
               Home
           </a>
           <div style={{display:"flex", paddingLeft:"650px"}}>
-              <a href="/" id="nav">My works</a>
+              <a href="/my-works" id="nav">My works</a>
               <a href="/about-me"id="nav">About me</a>
               <ContactMenu />
           </div>
