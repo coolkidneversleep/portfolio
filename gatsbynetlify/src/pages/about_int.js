@@ -26,7 +26,7 @@ const AboutIntro = () => {
             <div style={{display:"grid", gridTemplateColumns:"auto"}} >
                 <div>
                     <div style={{paddingRight:"100px", paddingTop:"135px",cursor:"pointer"}} className="cert"><img src={cousera} width="200px" height="130px"></img></div>
-                    <p style={{paddingTop:"160px",paddingLeft:"30px", paddingRight:"60px"}} className="cert">Introduction to <br></br>clound identity</p>
+                    <p style={{paddingTop:"160px",paddingLeft:"30px", paddingRight:"60px"}} className="cert">Introduction to <br></br>cloud identity</p>
                 </div>
             </div>
         </div>

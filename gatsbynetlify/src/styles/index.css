@@ -30,7 +30,7 @@
 .landing{
     background-image: url('../images/landing-4.png');
     height: 820px;
-    width: 1440px;
+    background-size: cover;
 }
 
 

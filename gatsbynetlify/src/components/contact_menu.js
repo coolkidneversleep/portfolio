@@ -58,10 +58,6 @@ const ContactMenu = () => {
             <div>Contact</div>
             <ArrowDropDownIcon></ArrowDropDownIcon>
           </div>
-          
-          {/* <ListItemIcon >
-              <ArrowDropDownIcon fontSize="normal"/>
-          </ListItemIcon> */}
         </Button>
         <Popper open={open} anchorEl={anchorRef.current} role={undefined} transition disablePortal>
           {({ TransitionProps, placement }) => (
@@ -73,7 +69,7 @@ const ContactMenu = () => {
                 <ClickAwayListener onClickAway={handleClose}>
                   <MenuList autoFocusItem={open} id="menu-list-grow" onKeyDown={handleListKeyDown}>
                     <MenuItem onClick={handleClose}>
-                      <a href="mailto:kaewketsaelee@gmail.com" style={{textDecoration:"none", color:"#2C2E43",paddingTop:"0px"}}>
+                      <a href="mailto:kaewketsaelee@gmail.com" style={{textDecoration:"none", color:"#2C2E43",paddingTop:"0px",display: 'flex',alignItems: 'center'}}>
                         <ListItemIcon>
                             <DraftsIcon fontSize="small" />
                         </ListItemIcon>
@@ -81,7 +77,7 @@ const ContactMenu = () => {
                       </a>
                     </MenuItem>
                     <MenuItem onClick={handleClose}>
-                      <a href="https://github.com/coolkidneversleep" style={{textDecoration:"none", color:"#2C2E43",paddingTop:"0px"}}>
+                      <a href="https://github.com/coolkidneversleep" style={{textDecoration:"none", color:"#2C2E43",paddingTop:"0px",display: 'flex',alignItems: 'center'}}>
                         <ListItemIcon>
                             <GitHubIcon fontSize="small" />
                         </ListItemIcon>
