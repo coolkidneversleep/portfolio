@@ -3,14 +3,21 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import '../styles/prj.css'
 import planme_img from '../images/planme.png'
+import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 
 const Planme = () => {
     return(
         <div>
             <Header />
+            <div style={{ display: "grid", gridTemplateRows: "auto", paddingTop:"100px",paddingLeft:"70px"}} >
+                <div>
+                    <ArrowBackIosIcon className="icon_link"/>
+                    <a className="card_link" href="/">back</a>
+                </div>
+            </div>
             <div style={{display:"grid",gridTemplateColumns:"40% 60%"}}>
                     <div>
-                        <div className="prj_name" style={{paddingTop:'160px'}}>Plan me</div>
+                        <div className="prj_name" style={{paddingTop:'60px'}}>Plan me</div>
                         <div className="type" style={{paddingTop:"0px"}}>mobile application</div>
                         <div className="description" style={{paddingTop:"30px", paddingRight:"40px"}}>
                         Plan me is a Cross Platform Application developed by Flutter that can help users manage their daily schedules.
@@ -27,7 +34,7 @@ const Planme = () => {
                             </div>
                         </div>
                     </div>
-                    <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak"  style={{paddingLeft:"9px", paddingTop:"120px"}}>
+                    <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak"  style={{paddingLeft:"9px", paddingTop:"40px"}}>
                         <img src={planme_img} height="600px" width="860px"></img>
                     </div>
             </div>

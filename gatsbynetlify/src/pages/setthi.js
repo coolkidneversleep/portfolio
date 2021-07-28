@@ -3,14 +3,21 @@ import Header from '../components/header';
 import setthi_img from '../images/setthi_landing-2.png';
 import '../styles/prj.css';
 import Footer from '../components/footer';
+import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 
 const Setthi = () => {
     return(
         <div>
             <Header />
+            <div style={{ display: "grid", gridTemplateRows: "auto", paddingTop:"100px",paddingLeft:"70px"}} >
+                <div>
+                    <ArrowBackIosIcon className="icon_link"/>
+                    <a className="card_link" href="/">back</a>
+                </div>
+            </div>
             <div style={{display:"grid",gridTemplateColumns:"40% 60%"}}>
                     <div>
-                        <div className="prj_name" style={{paddingTop:'160px'}}>Setthi</div>
+                        <div className="prj_name" style={{paddingTop:'60px'}}>Setthi</div>
                         <div className="type" style={{paddingTop:"0px"}}>mobile application</div>
                         <div className="description" style={{paddingTop:"30px", paddingRight:"40px"}}>
                         It is an expense management application that can help you to manage your expenses and transactions in your daily life and also allow you to split your money by the purpose.
@@ -26,7 +33,7 @@ const Setthi = () => {
                             </div>
                         </div>
                     </div>
-                    <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak" style={{paddingLeft:"9px", paddingTop:"120px"}}>
+                    <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak" style={{paddingLeft:"9px", paddingTop:"40px"}}>
                         <img src={setthi_img} height="600px" width="auto"></img>
                     </div>
             </div>

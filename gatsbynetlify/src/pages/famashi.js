@@ -3,14 +3,22 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import  famashi_img from '../images/famashi_landing.jpg';
 import '../styles/prj.css';
+import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
+
 
 const Famashi = () => {
     return(
         <div>
             <Header />
+            <div style={{ display: "grid", gridTemplateRows: "auto", paddingTop:"100px",paddingLeft:"70px"}} >
+                <div>
+                    <ArrowBackIosIcon className="icon_link"/>
+                    <a className="card_link" href="/">back</a>
+                </div>
+            </div>
             <div style={{display:"grid",gridTemplateColumns:"40% 60%"}}>
                     <div>
-                        <div className="prj_name" style={{paddingTop:'160px'}}>Famashi</div>
+                        <div className="prj_name" style={{paddingTop:'60px'}}>Famashi</div>
                         <div className="type" style={{paddingTop:"0px"}}>mobile application</div>
                         <div className="description" style={{paddingTop:"30px", paddingRight:"40px"}}>
                         The older person forgets to take medicine, can’t memorize the medicine's appearance, can’t track the remaining amount of medicine, and forgets their own allergy medicine.
@@ -27,7 +35,7 @@ const Famashi = () => {
                             </div>
                         </div>
                     </div>
-                    <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak" style={{paddingLeft:"9px", paddingTop:"120px"}}>
+                    <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak" style={{paddingLeft:"9px", paddingTop:"40px"}}>
                         <img src={famashi_img} height="600px" width="860px"></img>
                     </div>
             </div>

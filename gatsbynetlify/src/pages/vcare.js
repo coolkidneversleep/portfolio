@@ -3,14 +3,21 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import '../styles/prj.css';
 import image from '../images/vcare-landing.png';
+import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 
 const Vcare = () => {
     return(
         <div>
             <Header />
+            <div style={{ display: "grid", gridTemplateRows: "auto", paddingTop:"120px",paddingLeft:"70px"}} >
+                <div>
+                    <ArrowBackIosIcon className="icon_link"/>
+                    <a className="card_link" href="/">back</a>
+                </div>
+            </div>
             <div style={{display:"grid",gridTemplateColumns:"40% 60%"}}>
                     <div>
-                        <div className="prj_name" style={{paddingTop:'120px'}}>Vcare</div>
+                        <div className="prj_name" style={{paddingTop:'50px'}}>Vcare</div>
                         <div className="type" style={{paddingTop:"0px"}}>web application</div>
                         <div className="description" style={{paddingTop:"30px", paddingRight:"40px"}}>
                             Vcare is a project that I created during end of semester of 2nd year.
@@ -27,11 +34,11 @@ const Vcare = () => {
                             </div>
                         </div>
                     </div>
-                    <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak" style={{paddingLeft:"3px", paddingTop:"140px"}}>
+                    <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak" style={{paddingLeft:"3px", paddingTop:"80px"}}>
                         <img src={image} height="470px" width="860px"></img>
                     </div>
             </div>
-            <div style={{paddingTop:'20px',paddingLeft:"20px"}}>
+            <div style={{paddingTop:'70px',paddingLeft:"20px"}}>
                     <div style={{display:"grid",gridTemplateColumns:"40% 60%"}}>
                         <div>
                             <div className="topic">My Role</div>

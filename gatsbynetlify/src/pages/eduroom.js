@@ -3,13 +3,19 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import '../styles/prj.css';
 import image from '../images/eduroom-mac.png';
-
+import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 
 const Eduroom = () => {
 
     return(
         <div>
             <Header />
+            <div style={{ display: "grid", gridTemplateRows: "auto", paddingTop:"100px",paddingLeft:"70px"}} >
+                <div>
+                    <ArrowBackIosIcon className="icon_link"/>
+                    <a className="card_link" href="/">back</a>
+                </div>
+            </div>
             <div style={{display:"grid",gridTemplateRows:"auto auto"}}>
                 <div style={{display:"grid",gridTemplateColumns:"40% 60%"}}>
                     <div>
@@ -31,7 +37,7 @@ const Eduroom = () => {
                         </div>
                     </div>
                     {/* <div className="img-container"> */}
-                    <div >
+                    <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="5" data-sal-easing="easeOutBreak">
                     <div style={{paddingLeft:"142px", paddingTop:"140px", backgroundColor:"#FBCFFC", height:'680px'}}>
                         <img src={image} width="725px" height="500px" style={{objectFit:"cover"}} className="crop"></img>
                     </div>
