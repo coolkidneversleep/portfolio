@@ -63,6 +63,7 @@
         height: 400px; 
         width: 100vw;
         background-attachment: fixed;
+        background-color: black;
         background-size: contain;
         background-repeat: no-repeat;
         /* background-position: center center; */
