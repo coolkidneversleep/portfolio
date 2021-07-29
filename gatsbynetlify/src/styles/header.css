@@ -48,7 +48,7 @@
 .header{
     display: flex;
     padding: 1rem 2rem 1rem 4rem;
-    position: relative;
+    position: fixed;
     width: 100%;
     background: #fafafa;
     z-index: 100;
