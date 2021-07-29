@@ -60,8 +60,8 @@
     .txt_block{padding-left: 6vw; padding-top: 16vh;}
     .landing{
         background-image: url('../images/i11.png');
-        height: 463px; 
-        width: 375px;
+        height: 400px; 
+        width: 100vw;
         background-attachment: fixed;
         background-size: contain;
         background-repeat: no-repeat;
