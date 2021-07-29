@@ -327,19 +327,19 @@
   padding-bottom:70px;
 }
 .row_card{
-  padding-left:100px;
+  padding-left:60px;
 }
 
 @media screen and (max-width: 828px) {
   .heading{
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     padding:0px;
-    padding-left: 2vw;
-    font-weight: 500;
+    padding-left: 5vw;
+    font-weight: 600;
     padding-bottom: 3vh;
   }
   .all_container{
-    padding: 5vh 4vh;
+    padding: 5vh 6vh;
     padding-right: 0px;
   }
   .container{

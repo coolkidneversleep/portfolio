@@ -23,9 +23,9 @@ const IndexPage = () => {
       <div>
       <WorksPage/>
       </div>
-      <div data-sal="slide-up" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBack">
+      
         <AboutIntro/> 
-      </div>
+      
       <Footer />
     </div>
 

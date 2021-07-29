@@ -27,7 +27,13 @@
     cursor: pointer;
     transform: translateY(-7px);
 }
-
+.about_meh{
+    display: flex;
+    flex-flow: column; 
+    align-items: center;
+    padding: 120px 50px 40px 140px; 
+    padding-bottom:120px;
+}
 
 .txt{
     font-weight: 500;
@@ -37,6 +43,11 @@
     padding-right: 28px;
     color: #334257;
     line-height: 33px;
+    
+}
+.cert_name{
+    padding-top:160px;
+    padding-left:15px;
 }
 
 .item {
@@ -54,8 +65,59 @@
     font-family: "Quicksand";
     color: #334257;
 }
-
-  
-
+.about_container{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    padding-top: 60px;
+}
+.udemy_container{
+    display:grid;
+    grid-template-columns: auto;
+    padding-left: 90px;
+    padding-top:70px;
+}
+.udemy_img{
+    width:210px; 
+    height:140px
+}
+.btn_div{
+    padding-right: 80px;
+}
+.flutter_div{
+    padding-right: 100px;
+    padding-top: 135px;
+}
+.flutter_img{
+    width:200px;
+    height:130px;
+}
+.flutter_container{
+    display:grid;
+    grid-template-columns: auto;
+}
+@media screen and (max-width: 828px) {
+  .about_container{
+    grid-template-columns: 100%;
+    padding-top: 1vh;
+  }
+  .about_meh{
+    padding-left: 26vw; 
+    padding-bottom:16vh;
+  }
+  .txt{
+    font-size: 1.25rem;
+    /* padding-left: 10vw;
+    padding-right: 5vw; */
+  }
+  .btn_div{
+     padding-left: 5vw; 
+  }
+  .udemy_container{
+      display: none;
+  }
+  .flutter_container{
+      display: none;
+  }
+}
 
 

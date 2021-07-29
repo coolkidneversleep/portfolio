@@ -61,4 +61,8 @@
     font-family: "Quicksand";
     
   }
-  
+  @media screen and (max-width: 828px) {
+    .footer-basic{
+      padding:6vh 10vw;
+    }
+  }
