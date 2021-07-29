@@ -5,7 +5,8 @@ import "../styles/header.css"
 import ContactMenu from "./contact_menu"
 const Header = () => {
   return (
-    <header style={{ display: 'flex', justifyContent:'space-between', padding: '1rem 2rem 1rem 4rem',position:'fixed',width:'100vw',background:'white',zIndex:100}}>
+    <header className="header">
+      <meta name="viewport" content="width=device-width"></meta>
       <div>
         <a href="/" id="nav">Home</a>
       </div>

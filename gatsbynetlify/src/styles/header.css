@@ -26,7 +26,7 @@
 #nav:hover{
     background-position: 0 100%;
 }
-header{
+.header{
     display: flex;
     justify-content: space-between;
     padding: 1rem 2rem 1rem 4rem;
@@ -35,8 +35,10 @@ header{
     background: #fafafa;
     z-index: 100;
 }
-@media screen and (max-width: 447px) {
-    #nav{font-size: 1.5vh;}
+@media screen and (max-width: 828px) {
+    #nav{font-size: 1.2rem; margin-right: 29px; margin-left: 0.5px;}
+    .header{padding-left: 3rem;}
+
 }
 /* @media screen and (max-width: 795px) {
     #nav{font-size: 0.85rem;}

@@ -38,7 +38,26 @@
     background-position: center center;
 }
 
+/* @media screen and (max-width: 828px) {
+    .landing{
+        background-image: url('../images/landing_iphone-3.png');
+        height: 100%; 
+        width: 100%;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        
+    }
 
+} */
+
+@media screen and (max-width: 828px) {
+    .great_txt{font-size: 2rem;}
+    .name_txt{font-size: 3rem;}
+    .role_txt{font-size: 1.25rem;}
+    .txt_block{padding-left: 15vw;}
+}
 
 
 section{width:100%; max-width:100px; margin:0 auto;}
@@ -50,7 +69,7 @@ section{width:100%; max-width:100px; margin:0 auto;}
 .circle{width:100%; max-width:400px; height:360px; border-radius:50%; background-color:#fc659e; left:100px; bottom:0; z-index:1;}
 
 .dotsBlue{width:100%; height:auto; max-width:494px; max-height:434px; z-index:3; left:0; top:80px;}
-
+/* 
 @media screen and (max-width: 1025px) {
    .cluster{max-width:600px; height:550px; margin:20px auto;}
    .dotsBlue{max-width:340px;left:0; top:56px;}
@@ -68,4 +87,4 @@ section{width:100%; max-width:100px; margin:0 auto;}
     .cluster{max-width:320px; height:530px;}
     .dotsBlue{display:none}
     .circle{display:none;}
-}
+} */
