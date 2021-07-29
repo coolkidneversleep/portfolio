@@ -6,9 +6,9 @@ import '../styles/footer.css';
 
 const Footer = () => {
     return(
-        <div class="footer-basic">
+        <div className="footer-basic">
         <footer>
-            <div class="social">
+            <div className="social">
                 <a href="https://github.com/coolkidneversleep" style={{textDecoration:"none", color:"#2C2E43",paddingTop:"0px"}}>
                         <ListItemIcon>
                             <GitHubIcon fontSize="small" />
@@ -20,7 +20,7 @@ const Footer = () => {
                         </ListItemIcon>
                 </a>
             </div>
-            <p class="copyright">Copyright @2021 | Designed by Kaewket Saelee</p>
+            <p className="copyright">Copyright @2021 | Designed by Kaewket Saelee</p>
         </footer>
     </div>
 

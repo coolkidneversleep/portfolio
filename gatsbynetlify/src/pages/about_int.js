@@ -13,7 +13,7 @@ const AboutIntro = () => {
                 <p className="cert_name">flutter develoment boostcamp with dart</p>
                 </div>
             </div>
-            <div class="about_meh">
+            <div className="about_meh">
                 <div className="txt"> I like to create web applications that has good user-interface
                 and user-experience. And I always open my mind 
                 and willing to learn new things to achieve the goals.</div>

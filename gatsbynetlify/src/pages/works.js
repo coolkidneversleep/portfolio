@@ -21,8 +21,8 @@ const WorksPage = () => {
           <img src={eduroom} alt="" className="img_card"></img>
           <div className="name_card">
             <a className="card1" style={{width:"600px"}} href="/eduroom">eduroom
-              <div class="go-corner" href="/eduroom">
-                <div class="go-arrow">
+              <div className="go-corner" href="/eduroom">
+                <div className="go-arrow">
                   →
                 </div>
               </div>
@@ -32,8 +32,8 @@ const WorksPage = () => {
           <img src={setthi} alt=""  className="img_card"></img>
           <div className="name_card">
             <a className="card_setthi" style={{width:"600px"}} href="/setthi">setthi
-            <div class="go-corner" style={{backgroundColor:"#FFD344"}} href="/setthi">
-                <div class="go-arrow">
+            <div className="go-corner" style={{backgroundColor:"#FFD344"}} href="/setthi">
+                <div className="go-arrow">
                   →
                 </div>
               </div>
@@ -46,8 +46,8 @@ const WorksPage = () => {
           <img src={vcare_img} alt=""  className="img_card"></img>
           <div className="name_card">
             <a className="card_vcare" style={{width:"600px"}} href="/vcare">vcare
-            <div class="go-corner" style={{backgroundColor:"#5984F4"}} href="/vcare">
-                <div class="go-arrow">
+            <div className="go-corner" style={{backgroundColor:"#5984F4"}} href="/vcare">
+                <div className="go-arrow">
                   →
                 </div>
               </div>
@@ -57,8 +57,8 @@ const WorksPage = () => {
           <img src={famashi} alt="" className="img_card"></img>
           <div className="name_card">
             <a className="card_famashi" style={{width:"600px"}} href="/famashi">famashi
-              <div class="go-corner" style={{backgroundColor:"#B28CFE"}} href="/famashi">
-                <div class="go-arrow">
+              <div className="go-corner" style={{backgroundColor:"#B28CFE"}} href="/famashi">
+                <div className="go-arrow">
                   →
                 </div>
               </div>
@@ -68,8 +68,8 @@ const WorksPage = () => {
           <img src={planme} alt="" className="img_card"></img>
           <div className="name_card">
             <a className="card_planme" style={{width:"600px"}} href="/planme">planme
-              <div class="go-corner" style={{backgroundColor:"#99D9FF"}} href="/planme">
-                <div class="go-arrow">
+              <div className="go-corner" style={{backgroundColor:"#99D9FF"}} href="/planme">
+                <div className="go-arrow">
                   →
                 </div>
               </div>
