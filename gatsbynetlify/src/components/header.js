@@ -1,9 +1,6 @@
 import * as React from "react"
-import { AppBar } from "@material-ui/core"
-import { Toolbar } from "@material-ui/core"
 import "../styles/header.css"
 import ContactMenu from "./contact_menu"
-import MenuIcon from '@material-ui/icons/Menu';
 
 const Header = () => {
   return (

@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { Container } from '@material-ui/core';
 import eduroom from '../images/eduroom.png';
 import vcare_img from '../images/vcare.png';
 import setthi from '../images/setthi_2.png';
@@ -11,7 +10,7 @@ import '../styles/works.css';
 const WorksPage = () => {
 
   return (
-    <div maxWidth="lg" className="all_container">
+    <div className="all_container">
       <div className="container">
         <div>
           <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak">

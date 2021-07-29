@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { Container } from '@material-ui/core';
 import eduroom from '../images/eduroom.png';
 import vcare_img from '../images/vcare.png';
 import setthi from '../images/setthi_2.png';
@@ -10,7 +9,7 @@ import '../styles/works.css';
 const TestWorksPage = () => {
 
     return (
-      <div maxWidth="lg" style={{backgroundColor:"#F4F7FB", paddingBottom:"150px", padding:"100px", paddingTop:"120px"}}>
+      <div style={{backgroundColor:"#F4F7FB", paddingBottom:"150px", padding:"100px", paddingTop:"120px"}}>
         <div className="container" style={{display:"grid", gridTemplateColumns:"45% 55%"}}>
             <div>
               <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="5" data-sal-easing="easeOutBack"><h2 className="heading">All of My works</h2></div>
