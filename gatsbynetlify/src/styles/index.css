@@ -1,20 +1,21 @@
 .great_txt{
-    font-size: 44px;
+    font-size: 3vw;
     font-weight: 500;
     font-family: "Quicksand";
     line-height: 0px;
 }
 
 .name_txt{
-    font-size: 100px;
+    font-size: 6vw;
     font-weight: 400;
     font-family: "Quicksand";
     padding-left: 50px;
 }
 
 .role_txt{
-    font-weight: 500;
-    font-family: "DM Sans";
+    font-size: 2vw;
+    font-weight: 600;
+    font-family: "Quicksand";
     padding-left: 0px;
     padding-top: 10px;
 }
@@ -29,9 +30,15 @@
 
 .landing{
     background-image: url('../images/landing-4.png');
+    width:1450px;
     height: 820px;
+    background-attachment: fixed;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
+
+
 
 
 section{width:100%; max-width:100px; margin:0 auto;}

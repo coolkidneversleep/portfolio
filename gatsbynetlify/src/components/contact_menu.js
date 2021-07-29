@@ -51,7 +51,7 @@ const ContactMenu = () => {
           aria-controls={open ? 'menu-list-grow' : undefined}
           aria-haspopup="true"
           onClick={handleToggle}
-          style={{textTransform:"capitalize", color:"#2C2E43", fontFamily:"Quicksand", paddingTop:"20px"}}
+          style={{textTransform:"capitalize", color:"#2C2E43", fontFamily:"Quicksand", paddingTop:"18px"}}
           className="header_txt" id="nav"
         >
           <div style={{display:"grid", gridTemplateColumns:"auto auto"}}>
