@@ -24,7 +24,7 @@
     display: flex;
     flex-flow: column;
     align-items: start;
-    padding-top: 280px;
+    padding-top: 25vh;
     padding-left: 200px;
 }
 
@@ -53,10 +53,19 @@
 } */
 
 @media screen and (max-width: 828px) {
-    .great_txt{font-size: 2rem;}
-    .name_txt{font-size: 3rem;}
-    .role_txt{font-size: 1.25rem;}
-    .txt_block{padding-left: 15vw;}
+    .great_txt{font-size: 2rem; font-weight: 500;}
+    .name_txt{font-size: 2.5rem; padding-left: 5vw; font-weight: 600;}
+    .role_txt{font-size: 1.25rem; font-weight: 600;}
+    .txt_block{padding-left: 6vw; padding-top: 16vh;}
+    .landing{background-image: url('../images/landing_iphone-3.png');
+        height: 100%; 
+        width: 828px;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        padding-bottom: 10vh;
+    }
 }
 
 

@@ -11,13 +11,15 @@ import '../styles/works.css';
 const WorksPage = () => {
 
   return (
-    <div maxWidth="lg" style={{ backgroundColor: "#F4F7FB", paddingBottom: "160px", padding: "100px", paddingTop: "130px" }}>
-      <div className="container" style={{ display: "grid", gridTemplateColumns: "45% 55%" }}>
+    <div maxWidth="lg" className="all_container">
+      <div className="container">
         <div>
-          <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak"><h2 className="heading">All of My works</h2></div>
+          <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak">
+            <h2 className="heading">All of My works</h2>
+          </div>
           
-          <img src={eduroom} alt="" width="600" height="450" style={{ borderTopLeftRadius: "20px", borderTopRightRadius: "20px", objectFit: "cover" }}></img>
-          <div style={{paddingTop:"450px", paddingBottom:"70px"}}>
+          <img src={eduroom} alt="" className="img_card"></img>
+          <div className="name_card">
             <a className="card1" style={{width:"600px"}} href="/eduroom">eduroom
               <div class="go-corner" href="/eduroom">
                 <div class="go-arrow">
@@ -27,8 +29,8 @@ const WorksPage = () => {
             </a>
           </div>
           
-          <img src={setthi} alt=""  width="600" height="450" style={{ borderTopLeftRadius: "20px", borderTopRightRadius: "20px", objectFit: "cover" }}></img>
-          <div style={{paddingTop:"450px"}}>
+          <img src={setthi} alt=""  className="img_card"></img>
+          <div className="name_card">
             <a className="card_setthi" style={{width:"600px"}} href="/setthi">setthi
             <div class="go-corner" style={{backgroundColor:"#FFD344"}} href="/setthi">
                 <div class="go-arrow">
@@ -39,10 +41,10 @@ const WorksPage = () => {
           </div>
             
         </div>
-        <div style={{paddingLeft:"100px"}}>
+        <div className="row_card">
 
-          <img src={vcare_img} alt=""  width="600" height="450" style={{ borderTopLeftRadius: "20px", borderTopRightRadius: "20px", objectFit: "cover" }}></img>
-          <div style={{paddingTop:"450px", paddingBottom:"70px"}}>
+          <img src={vcare_img} alt=""  className="img_card"></img>
+          <div className="name_card">
             <a className="card_vcare" style={{width:"600px"}} href="/vcare">vcare
             <div class="go-corner" style={{backgroundColor:"#5984F4"}} href="/vcare">
                 <div class="go-arrow">
@@ -52,8 +54,8 @@ const WorksPage = () => {
             </a>
           </div>
 
-          <img src={famashi} alt="" width="600" height="450" style={{ borderTopLeftRadius: "20px", borderTopRightRadius: "20px", objectFit: "cover" }}></img>
-          <div style={{paddingTop:"450px", paddingBottom:"70px"}}>
+          <img src={famashi} alt="" className="img_card"></img>
+          <div className="name_card">
             <a className="card_famashi" style={{width:"600px"}} href="/famashi">famashi
               <div class="go-corner" style={{backgroundColor:"#B28CFE"}} href="/famashi">
                 <div class="go-arrow">
@@ -63,8 +65,8 @@ const WorksPage = () => {
             </a>
           </div>
 
-          <img src={planme} alt="" width="600" height="450" style={{ borderTopLeftRadius: "20px", borderTopRightRadius: "20px", objectFit: "cover" }}></img>
-          <div style={{paddingTop:"450px"}}>
+          <img src={planme} alt="" className="img_card"></img>
+          <div className="name_card">
             <a className="card_planme" style={{width:"600px"}} href="/planme">planme
               <div class="go-corner" style={{backgroundColor:"#99D9FF"}} href="/planme">
                 <div class="go-arrow">

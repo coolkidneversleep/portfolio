@@ -304,3 +304,65 @@
   font-size: 24px;
   font-weight: 500;
 }
+
+.container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.all_container{
+  background-color: #F4F7FB;
+  padding-bottom: 160px;
+  padding: 100px;
+  padding-top: 130px;
+}
+.img_card{
+  width: 600px;
+  height: 450px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  object-fit: cover; 
+}
+.name_card{
+  padding-top:450px; 
+  padding-bottom:70px;
+}
+.row_card{
+  padding-left:100px;
+}
+
+@media screen and (max-width: 828px) {
+  .heading{
+    font-size: 1.7rem;
+    padding:0px;
+    padding-left: 2vw;
+    font-weight: 500;
+    padding-bottom: 3vh;
+  }
+  .all_container{
+    padding: 5vh 4vh;
+    padding-right: 0px;
+  }
+  .container{
+    grid-template-columns: 100%;
+  }
+  .img_card{
+    width: 80vw;
+    height: auto;
+  }
+  .name_card{
+    padding-top: 25vh;
+    padding-bottom: 4vh;
+  }
+  .card1,
+  .card_setthi,
+  .card_vcare,
+  .card_famashi,
+  .card_planme{
+    max-width: 80vw;
+  }
+  .row_card{
+    padding-left: 0px;
+  }
+  
+
+}

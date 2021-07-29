@@ -45,14 +45,14 @@ const ContactMenu = () => {
     }, [open]);
 
     return(
-        <div>
+        <div style={{padding:"0px"}}>
         <Button
           ref={anchorRef}
           aria-controls={open ? 'menu-list-grow' : undefined}
           aria-haspopup="true"
           onClick={handleToggle}
           style={{textTransform:"capitalize", color:"#2C2E43", fontFamily:"Quicksand", paddingTop:"18px"}}
-          className="header_txt" id="nav"
+           id="nav_last"
         >
           <div style={{display:"grid", gridTemplateColumns:"auto auto"}}>
             <div>Contact</div>
