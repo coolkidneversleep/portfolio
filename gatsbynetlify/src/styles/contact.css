@@ -1,0 +1,21 @@
+.contact_btn{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: "Quicksand";
+    font-size: 2vh;
+    color: #2C2E43;
+    display: grid; 
+    padding-top: 1.5vh;
+    grid-template-columns: auto auto;
+}
+
+@media screen and (max-width: 828px) {
+    .contact_btn{
+        font-family:"Noto Sans JP"; 
+        color:#2C2E43; 
+        font-weight: 400;
+        font-size: 2vh;
+        padding-top: 1.4vh;
+    }
+    .arrow_icn{padding-top: 0.5vh;}
+}

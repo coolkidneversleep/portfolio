@@ -54,19 +54,19 @@
 } */
 
 @media screen and (max-width: 828px) {
-    .great_txt{font-size: 2rem; font-weight: 500;}
-    .name_txt{font-size: 2.5rem; padding-left: 5vw; font-weight: 600;}
-    .role_txt{font-size: 1.20rem; font-weight: 600;}
-    .txt_block{padding-left: 6vw; padding-top: 16vh;}
-    .landing{
-        background-image: url('../images/i11.png');
-        height: 463px; 
-        width: 375px;
-        background-attachment: fixed;
-        background-size: contain;
+    .great_txt{font-family:"Noto Sans JP"; font-size: 2rem; font-weight: 400;}
+    .name_txt{font-family:"Noto Sans JP"; font-size: 3.5rem; padding-left: 0px; font-weight: 400;}
+    .role_txt{font-family:"Noto Sans JP"; font-size: 1.20rem; font-weight: 400;}
+    .txt_block{padding-left: 9vw; padding-top: 10vh;}
+    .landing_img{
+        background-image: url('../images/frame2.png');
+        height: 40vh; 
+        width: 100vw;
+        image-resolution: from-image 300dpi;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-        padding-bottom: 5vh;
+        margin-top: 5vh;
     }
 }
 

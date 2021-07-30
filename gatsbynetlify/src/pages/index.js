@@ -19,6 +19,7 @@ const IndexPage = () => {
             <h1 className="name_txt">I'm kaewket </h1>
             <h2 className="role_txt">Computer Science Student, KMUTT</h2>
           </div>
+          <div className="landing_img"></div>
       </div>
       <div>
       <WorksPage/>

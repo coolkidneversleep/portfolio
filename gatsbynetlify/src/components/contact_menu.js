@@ -11,6 +11,7 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import "../styles/header.css";
+import "../styles/contact.css";
 
 const ContactMenu = () => {
     const [open, setOpen] = React.useState(false);
@@ -45,18 +46,16 @@ const ContactMenu = () => {
     }, [open]);
 
     return(
-        <div style={{padding:"0px"}}>
+        <div>
         <Button
           ref={anchorRef}
           aria-controls={open ? 'menu-list-grow' : undefined}
           aria-haspopup="true"
           onClick={handleToggle}
-          style={{textTransform:"capitalize", color:"#2C2E43", fontFamily:"Quicksand", paddingTop:"18px"}}
-           id="nav_last"
         >
-          <div style={{display:"grid", gridTemplateColumns:"auto auto"}}>
+          <div className="contact_btn" >
             <div>Contact</div>
-            <ArrowDropDownIcon></ArrowDropDownIcon>
+            <div className="arrow_icn"><ArrowDropDownIcon/></div>
           </div>
         </Button>
         <Popper open={open} anchorEl={anchorRef.current} role={undefined} transition disablePortal>

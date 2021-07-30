@@ -33,6 +33,10 @@ module.exports = {
                 {
                   family: `Lato`,
                   variants: [`100`, `300`, `400`, `700`],
+                },
+                {
+                  family: `Noto Sans JP`,
+                  variants: [`300`, `400`, `500`],
                 }
               ],
             },
