@@ -1,4 +1,4 @@
-.heading{
+.heading_sub{
     font-family: "Quicksand";
     color: #2C2E43;
     font-size: 70px;
@@ -305,7 +305,7 @@
   font-weight: 500;
 }
 
-.container{
+.container_sub{
   display: grid;
   grid-template-columns: 50% 50%;
 }
@@ -331,7 +331,8 @@
 }
 
 @media screen and (max-width: 828px) {
-  .heading{
+  .heading_sub{
+    display: none;
     font-family:"Noto Sans JP"; 
     font-size: 5vh;
     padding:0px;
@@ -344,8 +345,9 @@
     margin-top: 0;
     padding-right: 0px;
   }
-  .container{
+  .container_sub{
     grid-template-columns: 100%;
+    padding-top: 10vh;
   }
   .img_card{
     width: 80vw;

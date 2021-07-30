@@ -9,47 +9,49 @@ const Planme = () => {
     return(
         <div>
             <Header />
-            <div style={{ display: "grid", gridTemplateRows: "auto", paddingTop:"100px",paddingLeft:"70px"}} >
+            <div className="back_container">
                 <div>
                     <ArrowBackIosIcon className="icon_link"/>
                     <a className="card_link" href="/">back</a>
                 </div>
             </div>
-            <div style={{display:"grid",gridTemplateColumns:"40% 60%"}}>
+            <div className="prj_div">
+                <div className="prj_intro">
                     <div>
-                        <div className="prj_name" style={{paddingTop:'60px'}}>Plan me</div>
+                        <div className="prj_name">Plan me</div>
                         <div className="type" style={{paddingTop:"0px"}}>mobile application</div>
                         <div className="description" style={{paddingTop:"30px", paddingRight:"40px"}}>
                         Plan me is a Cross Platform Application developed by Flutter that can help users manage their daily schedules.
                         It has many features such as timer, to-do list, achievement, etc.                       
                         </div>
-                        <div style={{display:"grid",gridTemplateColumns:"auto auto"}}>
+                        <div className="des_div">
                             <div>
-                                <div className="type" style={{paddingTop:"50px"}} >project date</div>
-                                <div className="description" style={{paddingTop:"20px"}} >2021</div>
+                                <div className="type">project date</div>
+                                <div className="sub_description">2021</div>
                             </div>
-                            <div style={{paddingLeft:"0px"}}>
-                                <div className="type" style={{paddingTop:"50px", paddingLeft:"40px", paddingBottom:"0px"}} >website</div>
-                                <a style={{color:"#2C2E43",paddingTop:"0px", paddingLeft:"50px"}} href="https://github.com/ggolfz/planme"><div className="description" style={{paddingTop:"0px", paddingLeft:"40px", fontSize:"18px"}} >https://github.com/ggolfz/planme</div></a>
+                            <div>
+                                <div className="type" >website</div>
+                                <div className="description"><a className="website" href="https://github.com/ggolfz/planme">https://github.com/ggolfz/planme</a></div>
                             </div>
                         </div>
                     </div>
                     <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak"  style={{paddingLeft:"9px", paddingTop:"40px"}}>
-                        <img src={planme_img} height="600px" width="860px"></img>
+                        <img src={planme_img} className="eduroom_img"></img>
                     </div>
+                </div>
             </div>
-            <div style={{paddingTop:'120px',paddingLeft:"20px"}}>
-                    <div style={{display:"grid",gridTemplateColumns:"40% 60%"}}>
-                        <div>
+            <div className="more_container">
+                    <div className="more_div">
+                        <div className="more_col">
                             <div className="topic">My Role</div>
-                            <div className="topic" style={{paddingTop:"60px"}}>Techs&Tools</div>
+                            <div className="des">UI Design, Design system, Frontend Development</div>
+                            
                         </div>
-                        <div>
-                            <div className="des" style={{paddingLeft:"5px"}}>UI Design, Design system, Frontend Development</div>
-                            <div style={{ display: "grid", gridTemplateColumns:"15% 15% 15% 15%", paddingTop:"20px", paddingBottom:"60px"}}>
+                        <div className="more_col">
+                            <div className="topic">Techs&Tools</div>
+                            <div className="tech_div">
                             <div>
                                 <div className="box">Flutter</div>
-                                
                             </div>
                             <div>
                             <div className="box">Flask</div>

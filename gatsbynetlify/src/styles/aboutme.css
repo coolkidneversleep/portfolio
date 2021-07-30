@@ -1,10 +1,11 @@
 .name{
-    padding: 190px 100px;
+    padding: 20vh;
+    padding-left: 0px; 
     padding-bottom: 20px;
     font-family: "Quicksand";
-    color: #2C2E43;
     font-size: 70px;
     font-weight: 500;
+    color: #6C5CE7;
 }
 .image{
     border-radius: 40px;
@@ -14,15 +15,17 @@
     color: #2C2E43;
     font-size: 20px;
     font-weight: 400;
-    padding-left: 10px;
-    padding-right: 120px;
+    padding: 20vh;
+    padding-top: 0;
+    padding-left: 0;
+    
 }
 .title{
     font-family: "Quicksand";
     color: #383a49;
     font-size: 45px;
     font-weight: 500;
-    padding-left: 400px;
+    padding-left: 10vw;
 }
 .year{
     font-family: "Quicksand";
@@ -133,7 +136,105 @@
     -ms-user-select: none;
     user-select: none;
   }
-  
+
+
+.cont_div{
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+}
+.grid_div{
+  display: grid
+}
+.col_div{
+  display: grid;
+  grid-template-columns: 40vw 60vw;
+}
+.img_div{
+  padding-top: 20vh;
+  padding-left: 10vw;
+}
+.ed_col{
+  display: grid;
+  grid-template-columns: auto auto;
+   padding-top: 3vh;
+}
+.award_col{
+  padding-top: 3vh;
+}
+.col_award{
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+.tool_div{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+
+
+@media screen and (max-width: 828px) {
+  .col_div{
+    display: unset;
+    padding: 5vw;
+    padding-bottom: 2vh;
+  }
+  .img_div{
+    padding-top: 10vh;
+    padding-left:8vw;
+  }
+  .name{
+    padding-top: 45vh;
+    padding-right: 4vw;
+    padding-left: 7vw; 
+    padding-bottom: 3vh;
+    font-size: 2.5rem; 
+  }
+  .intro{
+    padding-right: 5vw;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-left: 8vw;
+    padding-bottom: 0;
+  }
+  .title{
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding-left: 7vw;
+    padding-bottom: 3vh;
+  }
+  .ed_col{
+    padding-top: 0;
+    padding-left: 3vw;
+  }
+  .box_color{
+    height: fit-content;
+    padding-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  .award_col{
+    padding-top: 0vh;
+    padding-left: 3vh;
+  }
+  .award{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-bottom: 0px;
+  }
+  .col_award{
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+  .tool_div{
+    grid-template-columns: auto auto auto;
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+    padding-left: 7vw;
+  }
+
+}
 
 
   

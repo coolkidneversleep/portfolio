@@ -39,28 +39,20 @@
     padding-top: 10vh;
 }
 
-/* @media screen and (max-width: 828px) {
-    .landing{
-        background-image: url('../images/landing_iphone-3.png');
-        height: 100%; 
-        width: 100%;
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        
-    }
 
-} */
 
 @media screen and (max-width: 828px) {
     .great_txt{font-family:"Noto Sans JP"; font-size: 2rem; font-weight: 400;}
     .name_txt{font-family:"Noto Sans JP"; font-size: 3.5rem; padding-left: 0px; font-weight: 400;}
     .role_txt{font-family:"Noto Sans JP"; font-size: 1.20rem; font-weight: 400;}
     .txt_block{padding-left: 9vw; padding-top: 10vh;}
+    .landing{
+       background-image: none;
+       width: min-content;
+    }
     .landing_img{
-        background-image: url('../images/frame2.png');
-        height: 40vh; 
+        background-image: url('../images/frame3.png');
+        height: 50vh; 
         width: 100vw;
         image-resolution: from-image 300dpi;
         background-size: cover;

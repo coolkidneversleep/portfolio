@@ -9,44 +9,46 @@ const Vcare = () => {
     return(
         <div>
             <Header />
-            <div style={{ display: "grid", gridTemplateRows: "auto", paddingTop:"120px",paddingLeft:"70px"}} >
+            <div className="back_container" >
                 <div>
                     <ArrowBackIosIcon className="icon_link"/>
                     <a className="card_link" href="/">back</a>
                 </div>
             </div>
-            <div style={{display:"grid",gridTemplateColumns:"40% 60%"}}>
+            <div className="prj_div">
+                <div className="prj_intro">
                     <div>
-                        <div className="prj_name" style={{paddingTop:'50px'}}>Vcare</div>
+                        <div className="prj_name">Vcare</div>
                         <div className="type" style={{paddingTop:"0px"}}>web application</div>
                         <div className="description" style={{paddingTop:"30px", paddingRight:"40px"}}>
                             Vcare is a project that I created during end of semester of 2nd year.
                             This website was born from the idea that Recently, various systems for booking vaccines have been created.<br></br>So I was interested and tried designing and building this website.
                         </div>
-                        <div style={{display:"grid",gridTemplateColumns:"auto auto"}}>
+                        <div className="des_div">
                             <div>
-                                <div className="type" style={{paddingTop:"50px"}} >project date</div>
-                                <div className="description" style={{paddingTop:"3px"}} >2021</div>
+                                <div className="type" >project date</div>
+                                <div className="sub_description" >2021</div>
                             </div>
                             <div>
-                                <div className="type" style={{paddingTop:"50px", paddingLeft:"40px"}} >website</div>
-                                <div className="description" style={{paddingTop:"3px", paddingLeft:"40px"}} >under construction</div>
+                                <div className="type" >website</div>
+                                <div className="sub_description" >under construction</div>
                             </div>
                         </div>
                     </div>
                     <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak" style={{paddingLeft:"3px", paddingTop:"80px"}}>
-                        <img src={image} height="470px" width="860px"></img>
+                        <img src={image} className="eduroom_img"></img>
                     </div>
+                </div>
             </div>
-            <div style={{paddingTop:'70px',paddingLeft:"20px"}}>
-                    <div style={{display:"grid",gridTemplateColumns:"40% 60%"}}>
-                        <div>
+            <div className="more_container">
+                    <div className="more_div">
+                        <div className="more_col">
                             <div className="topic">My Role</div>
-                            <div className="topic" style={{paddingTop:"90px"}}>Techs&Tools</div>
+                            <div className="des">UI Design, Design system, Frontend Development,<br></br> Backend Development </div>
                         </div>
-                        <div>
-                            <div className="des" style={{paddingLeft:"5px"}}>UI Design, Design system, Frontend Development,<br></br> Backend Development </div>
-                            <div style={{ display: "grid", gridTemplateColumns:"15% 15% 15%", paddingTop:"20px", paddingBottom:"60px"}}>
+                        <div className="more_col"> 
+                            <div className="topic">Techs&Tools</div>
+                            <div className="tech_div">
                             <div>
                                 <div className="box">ReactJS</div>
                                 <div className="box">NodeJS</div>

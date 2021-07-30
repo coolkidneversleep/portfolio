@@ -5,7 +5,7 @@ import profile from '../images/profile2.jpg'
 import Footer from '../components/footer';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 
-const AboutMe = () => {
+const AboutMePage = () => {
     return (
         <div>
             <Header />
@@ -103,4 +103,4 @@ const AboutMe = () => {
     )
 }
 
-export default AboutMe
+export default AboutMePage

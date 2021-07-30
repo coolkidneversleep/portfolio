@@ -2,7 +2,8 @@ import * as React from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import '../styles/prj.css';
-import image from '../images/eduroom-mac.png';
+import image from '../images/eduroom.png';
+
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 
 const Eduroom = () => {
@@ -10,14 +11,14 @@ const Eduroom = () => {
     return(
         <div>
             <Header />
-            <div style={{ display: "grid", gridTemplateRows: "auto", paddingTop:"100px",paddingLeft:"70px"}} >
+            <div className="back_container" >
                 <div>
                     <ArrowBackIosIcon className="icon_link"/>
                     <a className="card_link" href="/">back</a>
                 </div>
             </div>
-            <div style={{display:"grid",gridTemplateRows:"auto auto"}}>
-                <div style={{display:"grid",gridTemplateColumns:"40% 60%"}}>
+            <div className="prj_div">
+                <div className="prj_intro">
                     <div>
                         <div className="prj_name">Eduroom</div>
                         <div className="type" style={{paddingTop:"0px"}}>web application</div>
@@ -25,35 +26,33 @@ const Eduroom = () => {
                             Eduroom, online learning platform, is a project of integrated project 1 subject.
                             This website consist of private tutors, courses, forums, etc.
                         </div>
-                        <div style={{display:"grid",gridTemplateColumns:"auto auto"}}>
+                        <div className="des_div">
                             <div>
-                                <div className="type" style={{paddingTop:"50px"}} >project date</div>
-                                <div className="description" style={{paddingTop:"3px"}} >2019</div>
+                                <div className="type">project date</div>
+                                <div className="sub_description">2019</div>
                             </div>
                             <div>
-                                <div className="type" style={{paddingTop:"50px", paddingLeft:"40px"}} >website</div>
-                                <a style={{color:"#2C2E43", paddingLeft:"40px"}} href="https://eduroom.cscms.me"><div className="description" style={{paddingTop:"3px", paddingLeft:"40px"}} >https://eduroom.cscms.me</div></a>
+                                <div className="type" >website</div>
+                                <div className="sub_description" ><a  className="website" href="https://eduroom.cscms.me">https://eduroom.cscms.me</a></div>
                             </div>
                         </div>
                     </div>
-                    {/* <div className="img-container"> */}
                     <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="5" data-sal-easing="easeOutBreak">
-                    <div style={{paddingLeft:"142px", paddingTop:"140px", backgroundColor:"#FBCFFC", height:'680px'}}>
-                        <img src={image} width="725px" height="500px" style={{objectFit:"cover"}} className="crop"></img>
+                    <div >
+                        <img src={image} className="eduroom_img"></img>
                     </div>
                     </div>
-                    {/* <div className="overlay"></div> */}
-                    {/* </div> */}
+                   
                 </div>
-                <div style={{paddingTop:'20px',paddingLeft:"20px"}}>
-                    <div style={{display:"grid",gridTemplateColumns:"40% 60%"}}>
-                        <div>
+                <div className="more_container">
+                    <div className="more_div">
+                        <div className="more_col">
                             <div className="topic">My Role</div>
-                            <div className="topic" style={{paddingTop:"140px"}}>Techs&Tools</div>
+                            <div className="des">In this project, I design database, convert design from UI to HTML&CSS using NextJs, and coding backend to connect database in part of forum page.</div>
                         </div>
-                        <div>
-                            <div className="des" style={{paddingLeft:"0px"}}>In this project, I design database, convert design from UI to HTML&CSS using NextJs, and coding backend to connect database in part of forum page.</div>
-                            <div style={{ display: "grid", gridTemplateColumns:"15% 15% 15%", paddingTop:"40px", paddingBottom:"60px"}}>
+                        <div className="more_col">
+                        <div className="topic">Techs&Tools</div>
+                            <div className="tech_div">
                             <div>
                                 <div className="box">NextJS</div>
                                 <div className="box">NodeJS</div>
