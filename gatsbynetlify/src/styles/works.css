@@ -1,11 +1,11 @@
 .heading{
-    font-family: "Quicksand";
-    color: #2C2E43;
-    font-size: 8vh;
-    font-weight: 500;
-    padding: 5vw;
-    padding-bottom: 4vh;
-    padding-top: 3vh;
+  font-family: "Quicksand";
+  color: #2C2E43;
+  font-size: 8vh;
+  font-weight: 500;
+  padding: 5vw;
+  padding-bottom: 4vh;
+  padding-top: 3vh;
 }
 
 .wrapper {
@@ -99,6 +99,7 @@
   display: block;
   width: 41vw;
   position: relative;
+  
   background-color: white;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -335,7 +336,7 @@
     font-size: 5vh;
     padding:0px;
     padding-left: 5vw;
-    font-weight: 500;
+    font-weight: 400;
     padding-bottom: 3vh;
   }
   .all_container{
