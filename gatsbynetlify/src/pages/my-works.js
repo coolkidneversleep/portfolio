@@ -23,7 +23,7 @@ const MyWorksPage = () => {
           
           <img src={eduroom} alt="" className="img_card"></img>
           <div className="name_card">
-            <a className="card1" style={{maxWidth:"750px"}} href="/eduroom">eduroom
+            <a className="card1" style={{ maxWidth:"80vw"}} href="/eduroom">eduroom
               <div class="go-corner" href="/eduroom">
                 <div class="go-arrow">
                   →
@@ -34,7 +34,7 @@ const MyWorksPage = () => {
           
           <img src={setthi} alt=""  className="img_card"></img>
           <div className="name_card">
-            <a className="card_setthi" style={{maxWidth:"750px"}} href="/setthi">setthi
+            <a className="card_setthi" style={{ maxWidth:"80vw"}} href="/setthi">setthi
             <div class="go-corner" style={{backgroundColor:"#FFD344"}} href="/setthi">
                 <div class="go-arrow">
                   →
@@ -48,7 +48,7 @@ const MyWorksPage = () => {
 
           <img src={vcare_img} alt=""  className="img_card"></img>
           <div className="name_card">
-            <a className="card_vcare" style={{maxWidth:"750px"}} href="/vcare">vcare
+            <a className="card_vcare" style={{ maxWidth:"80vw"}} href="/vcare">vcare
             <div class="go-corner" style={{backgroundColor:"#5984F4"}} href="/vcare">
                 <div class="go-arrow">
                   →
@@ -59,7 +59,7 @@ const MyWorksPage = () => {
 
           <img src={famashi} alt="" className="img_card"></img>
           <div className="name_card">
-            <a className="card_famashi" style={{maxWidth:"750px"}} href="/famashi">famashi
+            <a className="card_famashi" style={{ maxWidth:"80vw"}} href="/famashi">famashi
               <div class="go-corner" style={{backgroundColor:"#B28CFE"}} href="/famashi">
                 <div class="go-arrow">
                   →
@@ -70,7 +70,7 @@ const MyWorksPage = () => {
 
           <img src={planme} alt="" className="img_card"></img>
           <div className="name_card">
-            <a className="card_planme" style={{maxWidth:"750px"}} href="/planme">planme
+            <a className="card_planme" style={{ maxWidth:"80vw"}} href="/planme">planme
               <div class="go-corner" style={{backgroundColor:"#99D9FF"}} href="/planme">
                 <div class="go-arrow">
                   →

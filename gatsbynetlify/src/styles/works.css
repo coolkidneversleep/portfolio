@@ -331,7 +331,7 @@
   padding-left:60px;
 }
 
-@media screen and (max-width: 828px) {
+@media screen and (max-width: 1024px) {
   .heading{
     font-size: 5vh;
     padding:0px;
