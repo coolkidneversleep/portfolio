@@ -1,7 +1,7 @@
 #nav_last{
     margin-right: 5vw;
     font-family: "Quicksand";
-    padding-top: 20px;
+    padding-top: 3vh;
     position: relative;
     display: inline-block;
     font-weight: 600;
@@ -19,14 +19,14 @@
 }
 .nav_box{
     display: grid;
-    grid-template-columns: auto auto auto;
-    padding-left: 50vw;
+    grid-template-columns: 40% 40% 20%;
+    padding-left: 40vw;
 }
 
 #nav{
     margin-right: 5vw;
     font-family: "Quicksand";
-    padding-top: 20px;
+    padding-top: 3vh;
     position: relative;
     display: inline-block;
     font-weight: 600;
@@ -57,7 +57,7 @@
     .nav_box{display: grid; grid-template-columns: 35% 35% 30%; padding-left: 10vw;}
     .header{ padding-left: 0px;}
     #nav{display: none;}
-    #nav_last{font-family:"Noto Sans JP"; color:#2C2E43; font-weight: 400;font-size: 2vh; padding-right: 10px; margin-right: 0vm; }
+    #nav_last{ color:#2C2E43; font-weight: 500;font-size: 2vh; padding-right: 10px; margin-right: 0vm; }
 
 }
 @media only screen 

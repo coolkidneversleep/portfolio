@@ -1,5 +1,5 @@
 .name{
-    padding: 20vh;
+    padding: 18vh;
     padding-left: 0px; 
     padding-bottom: 20px;
     font-family: "Quicksand";
@@ -115,6 +115,7 @@
     position: relative;
     display: inline-block;
     font-size: 22px;
+    padding-top: 0.5vh;
     font-weight: 500;
     color: #2C2E43;
     overflow: hidden;
@@ -170,6 +171,9 @@
   grid-template-columns: 25% 25% 25% 25%;
   padding-top: 40px;
   padding-bottom: 60px;
+}
+.intro_div{
+  padding-left: 3vw;
 }
 
 
@@ -233,7 +237,35 @@
     padding-bottom: 3vh;
     padding-left: 7vw;
   }
+  .intro_div{
+    padding-left: 3vw;
+  }
+  
 
+
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .name{
+      padding-top: 40vh;
+      padding-right: 4vw;
+      padding-left: 7vw; 
+      padding-bottom: 3vh;
+      font-size: 2.5rem; 
+    }
+    .ed_col{
+      padding-top: 0;
+      padding-left: 7vw;
+    }
+    .award_col{
+      padding-top: 0vh;
+      padding-left: 7vw;
+    }
+    .intro_div{
+      padding-left: 3vw;
+    }
 }
 
 

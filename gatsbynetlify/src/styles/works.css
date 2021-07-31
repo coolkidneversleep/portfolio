@@ -1,11 +1,11 @@
 .heading{
     font-family: "Quicksand";
     color: #2C2E43;
-    font-size: 70px;
+    font-size: 8vh;
     font-weight: 500;
-    padding: 20px;
-    padding-bottom: 40px;
-    padding-top: 60px;
+    padding: 5vw;
+    padding-bottom: 4vh;
+    padding-top: 3vh;
 }
 
 .wrapper {
@@ -97,7 +97,7 @@
 
 .card1 {
   display: block;
-  width: 600px;
+  width: 41vw;
   position: relative;
   max-width: 600px;
   background-color: white;
@@ -140,7 +140,7 @@
 }
 .card_setthi{
   display: block;
-  width: 600px;
+  width: 41vw;
   position: relative;
   max-width: 600px;
   background-color: white;
@@ -183,7 +183,7 @@
 
 .card_vcare{
   display: block;
-  width: 600px;
+  width: 41vw;
   position: relative;
   max-width: 600px;
   background-color: white;
@@ -226,7 +226,7 @@
 
 .card_famashi{
   display: block;
-  width: 600px;
+  width: 41vw;
   position: relative;
   max-width: 600px;
   background-color: white;
@@ -269,7 +269,7 @@
 
 .card_planme{
   display: block;
-  width: 600px;
+  width: 41vw;
   position: relative;
   max-width: 600px;
   background-color: white;
@@ -317,18 +317,18 @@
 .all_container{
   background-color: #F4F7FB;
   padding-bottom: 160px;
-  padding: 100px;
+  padding: 5vw;
   padding-top: 130px;
 }
 .img_card{
-  width: 600px;
-  height: 450px;
+  width: 41vw;
+  height: 50vh;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   object-fit: cover; 
 }
 .name_card{
-  padding-top:450px; 
+  padding-top:50vh; 
   padding-bottom:70px;
 }
 .row_card{
@@ -337,11 +337,10 @@
 
 @media screen and (max-width: 828px) {
   .heading{
-    font-family:"Noto Sans JP"; 
     font-size: 5vh;
     padding:0px;
     padding-left: 5vw;
-    font-weight: 400;
+    font-weight: 500;
     padding-bottom: 3vh;
   }
   .all_container{
@@ -354,10 +353,10 @@
   }
   .img_card{
     width: 80vw;
-    height: auto;
+    height: 30vh;
   }
   .name_card{
-    padding-top: 25vh;
+    padding-top: 30vh;
     padding-bottom: 4vh;
   }
   .card1,
@@ -365,7 +364,7 @@
   .card_vcare,
   .card_famashi,
   .card_planme{
-    max-width: 80vw;
+    width: 80vw;
   }
   .row_card{
     padding-left: 0px;

@@ -37,7 +37,7 @@ const Eduroom = () => {
                             </div>
                         </div>
                     </div>
-                    <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="5" data-sal-easing="easeOutBreak">
+                    <div>
                     <div >
                         <img src={image} className="eduroom_img"></img>
                     </div>

@@ -17,7 +17,7 @@ const AboutMe = () => {
                                 <img src={profile} alt="" height="350" width="320" className="image" ></img>
                             </div>
                         </div>
-                        <div>
+                        <div className="intro_div">
                             <div className="name">Kaewket Saelee</div>
                             <div className="intro">I am studying as an undergraduate in SIT at KMUTT. I have completed several projects such as web applications, mobile applications. I used to work on both frontend and backend. Also received awards in 2019-2020.<br></br> My strength is opening my mind and willing to learn new things to achieve targets and objectives.</div>
                         </div>
