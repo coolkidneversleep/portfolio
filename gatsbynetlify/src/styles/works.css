@@ -97,6 +97,7 @@
 
 .card1 {
   display: block;
+  width: 600px;
   position: relative;
   max-width: 600px;
   background-color: white;
@@ -139,6 +140,7 @@
 }
 .card_setthi{
   display: block;
+  width: 600px;
   position: relative;
   max-width: 600px;
   background-color: white;
@@ -181,6 +183,7 @@
 
 .card_vcare{
   display: block;
+  width: 600px;
   position: relative;
   max-width: 600px;
   background-color: white;
@@ -223,6 +226,7 @@
 
 .card_famashi{
   display: block;
+  width: 600px;
   position: relative;
   max-width: 600px;
   background-color: white;
@@ -265,6 +269,7 @@
 
 .card_planme{
   display: block;
+  width: 600px;
   position: relative;
   max-width: 600px;
   background-color: white;
@@ -367,4 +372,29 @@
   }
   
 
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .name_card{
+      padding-top: 43vh;
+      padding-bottom: 10vh;
+      width: 40vw;
+    }
+    .img_card{
+      width: 73vw;
+      height: 50vh;
+    }
+    .card1,
+    .card_setthi,
+    .card_vcare,
+    .card_famashi,
+    .card_planme{
+      width: 73vw;
+    }
+    .all_container{
+      padding-left: 15vw;
+    }
 }

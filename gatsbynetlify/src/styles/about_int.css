@@ -120,4 +120,20 @@
   }
 }
 
-
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .about_meh{
+        display: flex;
+        flex-flow: column; 
+        align-items: center;
+        padding: 10vh 25vw; 
+        padding-left: 20vw;
+        padding-right: 10vw;
+    }
+    .btn_div{
+        padding-right: 15vw;
+    }
+    
+}

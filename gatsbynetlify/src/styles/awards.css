@@ -204,3 +204,18 @@ a.animated-button.thar-four:before {
 		padding-right: 30vw;
 	}
 }
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .image_award{
+		width: 80vw;
+		height: auto;
+		padding-top: 0px;
+	}
+	.content{
+		padding-top: 40vh;
+		padding-right:2vw;
+		padding-left: 10vw;
+	}
+}

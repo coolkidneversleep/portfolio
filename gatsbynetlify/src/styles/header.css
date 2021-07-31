@@ -60,9 +60,18 @@
     #nav_last{font-family:"Noto Sans JP"; color:#2C2E43; font-weight: 400;font-size: 2vh; padding-right: 10px; margin-right: 0vm; }
 
 }
-/* @media screen and (max-width: 795px) {
-    #nav{font-size: 0.85rem;}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #nav{display: inline-block}
+    .nav_box{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding-left: 20vw;
+    }
+    .header{
+        padding-left: 5vw;
+    }
 }
-@media screen and (max-width: 695px) {
-    #nav{font-size: 0.75rem;}
-} */
+

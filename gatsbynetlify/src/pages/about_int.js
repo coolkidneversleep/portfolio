@@ -6,7 +6,7 @@ import cousera from '../images/cousera.png';
 const AboutIntro = () => {
     
     return (
-        <div className="about_container" data-sal="slide-up" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak">
+        <div className="about_container" >
             <div className="udemy_container" >
                 <div>
                 <img src={udemy} className="udemy_img"></img>
