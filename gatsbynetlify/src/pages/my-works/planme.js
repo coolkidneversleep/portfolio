@@ -1,8 +1,8 @@
 import * as React from 'react';
-import Header from '../components/header';
-import Footer from '../components/footer';
-import '../styles/prj.css'
-import planme_img from '../images/planme.png'
+import Header from '../../components/header';
+import Footer from '../../components/footer';
+import '../../styles/prj.css'
+import planme_img from '../../images/planme.png'
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 
 const Planme = () => {

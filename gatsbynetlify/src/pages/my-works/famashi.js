@@ -1,15 +1,16 @@
 import * as React from 'react';
-import Header from '../components/header';
-import setthi_img from '../images/setthi_landing-2.png';
-import '../styles/prj.css';
-import Footer from '../components/footer';
+import Header from '../../components/header';
+import Footer from '../../components/footer';
+import  famashi_img from '../../images/famashi_landing.jpg';
+import '../../styles/prj.css';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 
-const Setthi = () => {
+
+const Famashi = () => {
     return(
         <div>
             <Header />
-            <div className="back_container">
+            <div className="back_container" >
                 <div>
                     <ArrowBackIosIcon className="icon_link"/>
                     <a className="card_link" href="/">back</a>
@@ -18,51 +19,49 @@ const Setthi = () => {
             <div className="prj_div">
                 <div className="prj_intro">
                     <div>
-                        <div className="prj_name" >Setthi</div>
+                        <div className="prj_name">Famashi</div>
                         <div className="type" style={{paddingTop:"0px"}}>mobile application</div>
                         <div className="description" style={{paddingTop:"30px", paddingRight:"40px"}}>
-                        It is an expense management application that can help you to manage your expenses and transactions in your daily life and also allow you to split your money by the purpose.
+                        The older person forgets to take medicine, can’t memorize the medicine's appearance, can’t track the remaining amount of medicine, and forgets their own allergy medicine.
+                        So, this mdicine taking reminder application, famashi, can solve this problem.                        
                         </div>
                         <div className="des_div">
                             <div>
-                                <div className="type">project date</div>
+                                <div className="type" >project date</div>
                                 <div className="sub_description">2021</div>
                             </div>
                             <div>
                                 <div className="type" >website</div>
-                                <div className="sub_description"><a className="website" href="https://github.com/GGolfz/Setthi">https://github.com/GGolfz/Setthi</a></div>
+                                <div className="sub_description" style={{paddingRight:"10vw"}} ><a className="website" href="https://github.com/GGolfz/Famashi-App">https://github.com/GGolfz/Famashi-App</a></div>
                             </div>
                         </div>
                     </div>
-                
                     <div data-sal="slide-left" data-sal-duration="2000" data-sal-delay="2" data-sal-easing="easeOutBreak" style={{paddingLeft:"9px", paddingTop:"40px"}}>
-                        <div>
-                            <img src={setthi_img} className="eduroom_img"></img>
-                        </div>
+                        <img src={famashi_img} className="eduroom_img"></img>
                     </div>
                 </div>
-            
-                <div className="more_container">
+            </div>
+            <div className="more_container">
                     <div className="more_div">
                         <div className="more_col">
                             <div className="topic">My Role</div>
-                            <div className="des">UI Design, Frontend Development, Testing application,<br></br> Get feedback from user</div>
+                            <div className="des">Frontend Development, Backend Development </div>
                         </div>
                         <div className="more_col">
                             <div className="topic">Techs&Tools</div>
-                                <div className="tech_div">
-                                <div>
-                                    <div className="box">Flutter</div>
-                                    <div className="box">NestJS</div>
-                                </div>
-                                <div>
-                                    <div className="box">MySQL</div>
-                                    <div className="box">Google Cloud Run</div>
-                                </div>
-                                <div>
-                                    <div className="box">Figma</div>
-                                </div>
+                            <div className="tech_div">
+                            <div>
+                                <div className="box">Flutter</div>
                             </div>
+                            <div>
+                                <div className="box">Ruby on Rails</div>
+                            </div>
+                            <div>
+                                <div className="box">Figma</div>
+                            </div>
+                            <div>
+                                <div className="box">SQLite</div>
+                            </div> 
                         </div>
                     </div>
                 </div>
@@ -72,4 +71,4 @@ const Setthi = () => {
     )
 }
 
-export default Setthi
+export default Famashi

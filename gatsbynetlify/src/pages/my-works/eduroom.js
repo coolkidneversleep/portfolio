@@ -1,8 +1,8 @@
 import * as React from 'react';
-import Header from '../components/header';
-import Footer from '../components/footer';
-import '../styles/prj.css';
-import image from '../images/eduroom.png';
+import Header from '../../components/header';
+import Footer from '../../components/footer';
+import '../../styles/prj.css';
+import image from '../../images/eduroom.png';
 
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 

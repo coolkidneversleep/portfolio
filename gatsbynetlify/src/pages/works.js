@@ -20,8 +20,8 @@ const WorksPage = () => {
           
           <img src={eduroom} alt="" className="img_card"></img>
           <div className="name_card">
-            <a className="card1" style={{ maxWidth:"80vw"}} href="/eduroom">eduroom
-              <div class="go-corner" href="/eduroom">
+            <a className="card1" style={{ maxWidth:"80vw"}} href="/my-works/eduroom">eduroom
+              <div class="go-corner" href="/my-works/eduroom">
                 <div class="go-arrow">
                   →
                 </div>
@@ -31,8 +31,8 @@ const WorksPage = () => {
           
           <img src={setthi} alt=""  className="img_card"></img>
           <div className="name_card">
-            <a className="card_setthi" style={{ maxWidth:"80vw"}} href="/setthi">setthi
-            <div class="go-corner" style={{backgroundColor:"#FFD344"}} href="/setthi">
+            <a className="card_setthi" style={{ maxWidth:"80vw"}} href="/my-works/setthi">setthi
+            <div class="go-corner" style={{backgroundColor:"#FFD344"}} href="/my-works/setthi">
                 <div class="go-arrow">
                   →
                 </div>
@@ -45,8 +45,8 @@ const WorksPage = () => {
 
           <img src={vcare_img} alt=""  className="img_card"></img>
           <div className="name_card">
-            <a className="card_vcare" style={{ maxWidth:"80vw"}} href="/vcare">vcare
-            <div class="go-corner" style={{backgroundColor:"#5984F4"}} href="/vcare">
+            <a className="card_vcare" style={{ maxWidth:"80vw"}} href="/my-works/vcare">vcare
+            <div class="go-corner" style={{backgroundColor:"#5984F4"}} href="/my-works/vcare">
                 <div class="go-arrow">
                   →
                 </div>
@@ -56,8 +56,8 @@ const WorksPage = () => {
 
           <img src={famashi} alt="" className="img_card"></img>
           <div className="name_card">
-            <a className="card_famashi" style={{ maxWidth:"80vw"}} href="/famashi">famashi
-              <div class="go-corner" style={{backgroundColor:"#B28CFE"}} href="/famashi">
+            <a className="card_famashi" style={{ maxWidth:"80vw"}} href="/my-works/famashi">famashi
+              <div class="go-corner" style={{backgroundColor:"#B28CFE"}} href="/my-works/famashi">
                 <div class="go-arrow">
                   →
                 </div>
@@ -67,8 +67,8 @@ const WorksPage = () => {
 
           <img src={planme} alt="" className="img_card"></img>
           <div className="name_card">
-            <a className="card_planme" style={{ maxWidth:"80vw"}} href="/planme">planme
-              <div class="go-corner" style={{backgroundColor:"#99D9FF"}} href="/planme">
+            <a className="card_planme" style={{ maxWidth:"80vw"}} href="/my-works/planme">planme
+              <div class="go-corner" style={{backgroundColor:"#99D9FF"}} href="/my-works/planme">
                 <div class="go-arrow">
                   →
                 </div>
