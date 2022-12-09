@@ -42,7 +42,7 @@ const WorksPage = () => {
           </div>
           <img src={melodistic} alt="" className="img_card"></img>
           <div className="name_card">
-            <a className="card_planme" style={{ maxWidth:"80vw"}} href="/my-works/planme">melodistic
+            <a className="card_setthi" style={{ maxWidth:"80vw"}} href="/my-works/planme">melodistic
               <div class="go-corner" style={{backgroundColor:"#99D9FF"}} href="/my-works/planme">
                 <div class="go-arrow">
                   →

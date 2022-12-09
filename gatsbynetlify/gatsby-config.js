@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: `https://kaewket.codes`,
   },
   plugins: [
+    `gatsby-plugin-pnpm`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
     'gatsby-plugin-robots-txt',
