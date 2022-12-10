@@ -5,6 +5,7 @@ import vcare_img from '../../images/vcare.png';
 import setthi from '../../images/setthi_2.png';
 import famashi from '../../images/famashi.jpg';
 import planme from '../../images/planme.png';
+import melodistic from '../../images/melodistic.png';
 import '../../styles/my-works.css';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
@@ -36,6 +37,16 @@ const MyWorksPage = () => {
           <div className="name_card">
             <a className="card_setthi" style={{ maxWidth:"80vw"}} href="/my-works/setthi">setthi
             <div class="go-corner" style={{backgroundColor:"#FFD344"}} href="/my-works/setthi">
+                <div class="go-arrow">
+                  →
+                </div>
+              </div>
+            </a>
+          </div>
+          <img src={melodistic} alt="" className="img_card"></img>
+          <div className="name_card">
+            <a className="card_melodistic" style={{ maxWidth:"80vw"}} href="/my-works/melodistic">melodistic
+              <div class="go-corner" style={{backgroundColor:"#F4906B"}} href="/my-works/melodistic">
                 <div class="go-arrow">
                   →
                 </div>
