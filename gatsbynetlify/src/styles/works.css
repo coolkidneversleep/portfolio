@@ -401,6 +401,7 @@
   .card_setthi,
   .card_vcare,
   .card_famashi,
+  .card_melodistic,
   .card_planme{
     width: 80vw;
   }
@@ -428,6 +429,7 @@
     .card_setthi,
     .card_vcare,
     .card_famashi,
+    .card_melodistic,
     .card_planme{
       width: 73vw;
     }
