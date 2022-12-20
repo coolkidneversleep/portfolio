@@ -6,6 +6,8 @@ import setthi from '../images/setthi_2.png';
 import famashi from '../images/famashi.jpg';
 import planme from '../images/planme.png';
 import melodistic from '../images/melodistic.png';
+import english from '../images/english.png';
+import papaya from '../images/papaya.png';
 import '../styles/works.css';
 
 
@@ -50,6 +52,16 @@ const WorksPage = () => {
               </div>
             </a>
           </div>
+          <img src={english} alt="" className="img_card"></img>
+          <div className="name_card">
+            <a className="card_english" style={{ maxWidth:"80vw"}} href="/my-works/english">english handwriting regcognition
+              <div class="go-corner" style={{backgroundColor:"#ad9df9"}} href="/my-works/english">
+                <div class="go-arrow">
+                  →
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
         <div className="row_card">
 
@@ -79,6 +91,17 @@ const WorksPage = () => {
           <div className="name_card">
             <a className="card_planme" style={{ maxWidth:"80vw"}} href="/my-works/planme">planme
               <div class="go-corner" style={{backgroundColor:"#99D9FF"}} href="/my-works/planme">
+                <div class="go-arrow">
+                  →
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <img src={papaya} alt="" className="img_card"></img>
+          <div className="name_card">
+            <a className="card_papaya" style={{ maxWidth:"80vw"}} href="/my-works/papaya">papaya pogpog
+              <div class="go-corner" style={{backgroundColor:"#FFB080"}} href="/my-works/papaya">
                 <div class="go-arrow">
                   →
                 </div>

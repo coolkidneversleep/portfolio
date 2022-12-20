@@ -348,6 +348,90 @@
   font-weight: 500;
 }
 
+.card_papaya{
+  display: block;
+  width: 41vw;
+  position: relative;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 40px 20px;
+  padding-right: 0px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  color: #2C2E43;
+  font-family: "Quicksand";
+  font-size: 22px;
+  font-weight: 500;
+}
+.card_papaya:before{
+  content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: rgba(250, 139, 68, 0.4);
+    color: white;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.25s ease-out;
+}
+.card_papaya:hover:before {
+  transform: scale(21);
+}
+.card_papaya:hover {
+  color: #2C2E43;
+  font-family: "Quicksand";
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.card_english{
+  display: block;
+  width: 41vw;
+  position: relative;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 40px 20px;
+  padding-right: 0px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  color: #2C2E43;
+  font-family: "Quicksand";
+  font-size: 22px;
+  font-weight: 500;
+}
+.card_english:before{
+  content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: rgba(173, 157, 249, 0.6);
+    color: white;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.25s ease-out;
+}
+.card_english:hover:before {
+  transform: scale(21);
+}
+.card_english:hover {
+  color: #2C2E43;
+  font-family: "Quicksand";
+  font-size: 24px;
+  font-weight: 500;
+}
+
 .container{
   display: grid;
   grid-template-columns: 50% 50%;
