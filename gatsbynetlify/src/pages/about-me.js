@@ -34,8 +34,8 @@ const AboutMe = () => {
                             <div>
                                 <div className="box_color" style={{ backgroundColor: "#FFE89A" }}><p className="year">2019 - Present</p></div>
                                 <p className="school">King Mongkut's University of Technology Thonburi<br></br>
-                                    studying bachelor's degree (3rd year), computer science,<br></br> school of information techonology<br></br>
-                                    gpax : 3.72</p>
+                                    studying bachelor's degree, computer science,<br></br> data science track. school of information techonology<br></br>
+                                    gpax : 3.70</p>
                             </div>
                         </div>
                     </div>
