@@ -413,7 +413,7 @@
     z-index: -1;
     top: -16px;
     right: -16px;
-    background: rgba(173, 157, 249, 0.6);
+    background: rgba(173, 157, 249, 0.4);
     color: white;
     height: 32px;
     width: 32px;
@@ -486,6 +486,8 @@
   .card_vcare,
   .card_famashi,
   .card_melodistic,
+  .card_english,
+  .card_papaya,
   .card_planme{
     width: 80vw;
   }
