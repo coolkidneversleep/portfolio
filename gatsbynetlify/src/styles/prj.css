@@ -1,231 +1,232 @@
-.prj_name{
-    padding-left: 70px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    font-family: "Quicksand";
-    color: #5545cf;
-    font-size: 100px;
-    font-weight: 500;
-
+.prj_name {
+  padding-left: 70px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  font-family: "Quicksand";
+  color: #5545cf;
+  font-size: 100px;
+  font-weight: 500;
 }
-.type{
-    font-family: "Quicksand";
-    color: rgb(145, 145, 145);
-    font-size: 20px;
-    font-weight: 400;
-    padding-left: 75px;
-    padding-top:50px;
+.type {
+  font-family: "Quicksand";
+  color: rgb(145, 145, 145);
+  font-size: 20px;
+  font-weight: 400;
+  padding-left: 75px;
+  padding-top: 50px;
 }
 .crop {
-    object-position: 10px;
+  object-position: 10px;
 }
-.description{
-    font-family: "Quicksand";
-    color: #2C2E43;
-    font-size: 21px;
-    font-weight: 500;
-    padding-left: 75px;
-    padding-top: 1vh;
+.description {
+  font-family: "Quicksand";
+  color: #2c2e43;
+  font-size: 21px;
+  font-weight: 500;
+  padding-left: 75px;
+  padding-top: 1vh;
 }
-.sub_description{
-    font-family: "Quicksand";
-    color: #2C2E43;
-    font-size: 21px;
-    font-weight: 500;
-    padding-left: 75px;
-    padding-top: 1vh;
+.sub_description {
+  font-family: "Quicksand";
+  color: #2c2e43;
+  font-size: 21px;
+  font-weight: 500;
+  padding-left: 75px;
+  padding-top: 1vh;
 }
-.topic{
-    font-family: "Quicksand";
-    color: #2C2E43;
-    font-size: 37px;
-    font-weight: 500;
-    padding-top: 50px;
-    padding-left: 240px;
+.topic {
+  font-family: "Quicksand";
+  color: #2c2e43;
+  font-size: 37px;
+  font-weight: 500;
+  padding-top: 50px;
+  padding-left: 240px;
 }
-.topic_box{
-    background-color: #EC6697;
-    border-radius: 15px;
-    width: max-content;
-    height: max-content;
-    color:white;
-   }
-.des{
-    font-family: "Quicksand";
-    color: #2C2E43;
-    font-size: 22px;
-    font-weight: 400;
-    padding: 7vh 0vw;
-    padding-left: 0px;
+.topic_box {
+  background-color: #ec6697;
+  border-radius: 15px;
+  width: max-content;
+  height: max-content;
+  color: white;
 }
-.box{
-    width: fit-content;
-    display: block;
-    padding: 8px;
-    border-radius: 10px;
-    border: 1px solid lightgrey;
-    font-family: "Quicksand";
-    color: #2C2E43;
-    font-size: 18px;
-    font-weight: 400;
-    margin-bottom: 10px;
+.des {
+  font-family: "Quicksand";
+  color: #2c2e43;
+  font-size: 22px;
+  font-weight: 400;
+  padding: 7vh 0vw;
+  padding-left: 0px;
+}
+.box {
+  width: fit-content;
+  display: block;
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  font-family: "Quicksand";
+  color: #2c2e43;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
 }
 
 .wrapper {
-    width: 300px;
-    height: 300px;
-    position: relative;
-    margin: 40px;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: 40px;
 }
-  
-.cover,img {
-    position: absolute;
+
+.cover,
+img {
+  position: absolute;
 }
-  
+
 .cover {
-    width: 100%;
-    height: 100%;
-    background: white;
+  width: 100%;
+  height: 100%;
+  background: white;
 }
 
 .img-container {
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 600px;
-    height: 400px;
-    border-radius: 2px;
-    overflow: hidden;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 400px;
+  border-radius: 2px;
+  overflow: hidden;
 }
-   
+
 .img-container img {
-    max-width: 100%;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(1.3);
-    animation: pic 2s;
-    animation-fill-mode: forwards;
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.3);
+  animation: pic 2s;
+  animation-fill-mode: forwards;
 }
-   
+
 .img-container .overlay {
-    width: 100%;
-    height: 100%;
-    background-color: #EB5F00;
-    position: absolute;
-    transform: scaleX(0);
-    transform-origin: 0% 50%;
-    animation: overlay 2s;
+  width: 100%;
+  height: 100%;
+  background-color: #eb5f00;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: 0% 50%;
+  animation: overlay 2s;
 }
-.back_container{
-    display: grid;
-    grid-template-rows: auto;
-    padding-top:150px;
-    padding-left: 70px;
+.back_container {
+  display: grid;
+  grid-template-rows: auto;
+  padding-top: 150px;
+  padding-left: 70px;
 }
-.prj_div{
-    display: grid;
-    grid-template-rows: auto auto;
+.prj_div {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  padding-bottom: 2rem;
 }
-.prj_intro{
-    display: grid;
-    grid-template-columns: 40% 60%
+.prj_intro {
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
-.des_div{
-    display: grid;
-    grid-template-columns: auto auto;
+.des_div {
+  display: grid;
+  grid-template-columns: auto auto;
 }
-.website{
-    color:#2C2E43;
+.website {
+  color: #2c2e43;
 }
-.eduroom_img{
-    width: 50%;
-    height: 40hw;
-    object-fit:cover;
+.eduroom_img {
+  padding-right: 5rem;
+  width: 50%;
+  height: auto;
 }
-.more_container{
-    padding-top: 10vh;
+.more_container {
+  padding-top: 10vh;
 }
-.more_div{
-    display: grid;
+.more_div {
+  display: grid;
 }
-.more_col{
-    display: grid;
-    grid-template-columns: 40vw 60vw;
+.more_col {
+  display: grid;
+  grid-template-columns: 40vw 60vw;
 }
-.tech_div{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding-top: 40px;
-    padding-bottom: 60px;
+.tech_div {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-top: 40px;
+  padding-bottom: 60px;
 }
 
 @media screen and (max-width: 828px) {
-    .back_container{
-        padding-top:20vh;
-        padding-left: 10vw;
-    }
-    .prj_intro{
-        display: grid;
-        grid-template-columns: 100vw;
-    }
-    .prj_name{
-        padding-left: 10vw;
-        font-family: "Quicksand";
-        font-size: 3rem;
-        font-weight: 600;
-    }
-    .type{
-        font-size: 1.25rem;
-        font-weight: 400;
-        padding-top: 5vh;
-        padding-left: 10vw;
-    }
-    .description{
-        font-size: 1.25rem;
-        font-weight: 500;
-        padding-top: 5vh;
-        padding-left: 10vw;
-    }
-    .des_div{
-        display: grid;
-        grid-template-columns: 40vw 50vw;
-    }
-    .sub_description{
-        font-size: 1rem;
-        font-weight: 500;
-        padding-top: 2vh;
-        padding-left: 10vw;
-    }
-    .eduroom_img{
-        width: 100vw;
-        height: 50vh;
-        padding: 7vh 5vw;
-        object-fit:cover;
-    }
-    .more_container{
-        padding: 50vh 10vw;
-        padding-bottom: 10vh;
-    }
-    .more_col{
-        display: unset;
-        padding-bottom: 0px;
-    }
-    .topic{
-        font-size: 1.5rem;
-        font-weight: 500;
-        padding-top: 3vh;
-        padding-left: 2vw;
-    }
-    .more_div{
-        display: grid;
-        grid-template-rows: 40vh 30vh;
-    }
-    .des{
-        font-size: 1.25rem;
-        font-weight: 400;
-        padding-bottom: 0vh;
-    }
+  .back_container {
+    padding-top: 20vh;
+    padding-left: 10vw;
   }
+  .prj_intro {
+    display: grid;
+    grid-template-columns: 100vw;
+  }
+  .prj_name {
+    padding-left: 10vw;
+    font-family: "Quicksand";
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .type {
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding-top: 5vh;
+    padding-left: 10vw;
+  }
+  .description {
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-top: 5vh;
+    padding-left: 10vw;
+  }
+  .des_div {
+    display: grid;
+    grid-template-columns: 40vw 50vw;
+  }
+  .sub_description {
+    font-size: 1rem;
+    font-weight: 500;
+    padding-top: 2vh;
+    padding-left: 10vw;
+  }
+  .eduroom_img {
+    width: 100vw;
+    height: 50vh;
+    padding: 7vh 5vw;
+    object-fit: cover;
+  }
+  .more_container {
+    padding: 50vh 10vw;
+    padding-bottom: 10vh;
+  }
+  .more_col {
+    display: unset;
+    padding-bottom: 0px;
+  }
+  .topic {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-top: 3vh;
+    padding-left: 2vw;
+  }
+  .more_div {
+    display: grid;
+    grid-template-rows: 40vh 30vh;
+  }
+  .des {
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding-bottom: 0vh;
+  }
+}
